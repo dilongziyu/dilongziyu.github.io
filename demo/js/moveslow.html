@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>缓冲运动</title>
+    <style media="screen">
+/*-----default model-----*/
+body,h1, h2, h3, h4, h5, h6,p,ul, ol, dl, dd,figure, menu, input, textarea, button, select, th, td {margin: 0;padding: 0;}
+h1, h2, h3, h4, h5, h6,b, strong {font-size: 100%;font-weight: normal;}
+li {list-style: none;}
+em, i {font-style: normal;}
+input,textarea,button,select {outline: 0 none;}
+textarea {resize: vertical;}
+input[type="button"],input[type="submit"],input[type="reset"] {-webkit-appearance: none;appearance: none;}
+html,body {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);-webkit-touch-callout: none;-webkit-user-select: none;user-select: none;word-wrap: break-word;}
+a {text-decoration: none;outline: 0 none;color:inherit}
+
+    #div1{
+      width: 200px;
+      height: 200px;
+      background: #0f0;
+      position: absolute;
+      left: 0;
+      top: 20px;
+    }
+    </style>
+    <script>
+      window.onload=function(){
+        var oDiv=document.getElementById('div1');
+
+        setInterval(function () {
+          var speed=(300-oDiv.offsetLeft)/10;
+          var speed=speed>0?Math.ceil(speed):Math.ceil(speed);
+          oDiv.style.left=oDiv.offsetLeft+speed+'px';
+        }, 30);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="div1">a</div>
+  </body>
+</html>

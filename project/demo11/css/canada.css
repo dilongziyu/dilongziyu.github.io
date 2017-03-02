@@ -1,0 +1,782 @@
+/*-----default model-----*/
+body,h1, h2, h3, h4, h5, h6,p,ul, ol, dl, dd,figure, menu, input, textarea, button, select, th, td {margin: 0;padding: 0;}
+h1, h2, h3, h4, h5, h6,b, strong {font-size: 100%;font-weight: normal;}
+li {list-style: none;}
+em, i {font-style: normal;}
+input,textarea,button,select {outline: 0 none;}
+textarea {resize: vertical;}
+input[type="button"],input[type="submit"],input[type="reset"] {-webkit-appearance: none;appearance: none;}
+html,body {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);-webkit-touch-callout: none;-webkit-user-select: none;user-select: none;word-wrap: break-word;}
+a {text-decoration: none;outline: 0 none;color:inherit}
+
+body{
+  width: 100%;
+  height: auto;
+  font-family:'Microsoft Yahei',微软雅黑, YaHei, 黑体, Hei, Tahoma, Helvetica, arial, sans-serif;
+}
+
+/*----------表头----------*/
+.header_contain{
+  height: 96px;
+  width: 1022px;
+  margin: 0 auto;
+}
+
+/*----搜索框------*/
+.header_input{
+  width: 295px;
+  height: 30px;
+  background-color: #88c6c9;
+  border:solid 2px #6da7aa;
+  border-radius: 10px 0 0 10px;;
+  margin: 40px 0 26px 0;
+  vertical-align:top;
+}
+
+/*---------搜索文字----------*/
+.header_input_search{
+  display: inline-block;
+  width: 55px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  border-radius:0 10px 10px 0;
+  background-color: #6da7aa;
+  color: #fff;
+  vertical-align: top;
+  margin: 40px 40px 0 0;
+  font-size: 13px;
+}
+
+/*------学院主站-------*/
+.header_right{
+  display: inline-block;
+  vertical-align: top;
+  width: 192px;
+  font-size: 12px;
+  margin-top: 23px;
+}
+
+.header_webset,.header_contact{
+  border-right: 2px solid #2f89d4;
+  padding: 0 5px 0 5px;
+}
+
+.header_advisory{
+  font-size: 14px;
+  margin-top: 17px;
+  padding-left: 5px;
+  color: #534c47;
+}
+
+/*----------导航栏----------*/
+nav{
+  background-color: #88c6c9;
+  height: 42px;
+}
+
+.nav_main{
+  width: 1022px;
+  height: 42px;
+  margin: 0 auto;
+  color: #fff;
+  font-size:14px;
+}
+
+.nav_ameschool{
+  width: 152px;
+  height: inherit;
+  padding: 11px 23px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.nav_canaschool{
+  width: 166px;
+  height: inherit;
+  padding: 11px 13px;
+  text-align: center;
+  line-height: 42px;
+  background-color: #52a1a4;
+}
+
+.nav_prep{
+  width: 62px;
+  height: inherit;
+  padding: 11px 41px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.nav_aboutus{
+  width: 59px;
+  height: inherit;
+  padding: 11px 39px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.nav_connect{
+  width: 60px;
+  padding: 11px 41px;
+  height: inherit;
+  text-align: center;
+  line-height: 42px;
+}
+
+.nav_online{
+  width: 60px;
+  padding: 11px 39px;
+  height: inherit;
+  text-align: center;
+  line-height: 42px;
+}
+
+/*--------项目介绍--------*/
+.project{
+  width: 1022px;
+  height: 373px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.project_title{
+  margin: 42px 0 29px;
+}
+
+.project_content01{
+  font-size: 18px;
+  color: #000;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.project_content02{
+  font-size: 13px;
+  color: #4c4c4c;
+  line-height: 26px;
+}
+
+/*------一学年全脱产课程---------*/
+.class{
+  background-color: #96b79a;
+}
+
+.class_main{
+  width: 1022px;
+  height: 320px;
+  margin: 0  auto;
+}
+.class_title{
+  width: 838px;
+  height: 41px;
+  font-size: 18px;
+  line-height: 41px;
+  color: #676767;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 auto;
+  border-top: 10px solid #96b79a;
+  border-bottom: 8px solid #96b79a;
+}
+
+.class_table{
+  width: 838px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.class_basis{
+  width: 838px;
+  height: 70px;
+}
+
+.class_basis_title{
+  font-size: 14px;
+  color:#5c9163;
+  width: 160px;
+  border-right: 1px solid #96b79a;
+  border-bottom: 1px solid #96b79a;
+}
+
+.class_basis_content{
+  border-bottom: 1px solid #96b79a;
+  padding: 0 58px 0 19px;
+  font-size: 13px;
+  text-align: left;
+  color: #7f7f7f;
+}
+
+.class_basis_content>span{
+  color: #5c9163;
+  line-height: 23px;
+}
+
+.class_west{
+  width: 160px;
+  height: 54px;
+}
+
+.class_west_title{
+  color: #5c9163;
+  font-size: 14px;
+  border-right: 1px solid #96b79a;
+  border-bottom: 1px solid #96b79a;
+}
+
+.class_west_content{
+  border-bottom: 1px solid #96b79a;
+  padding: 0 58px 0 19px;
+  font-size: 13px;
+  text-align: left;
+  color: #7f7f7f;
+}
+
+.class_west_content>span{
+  color: #5c9163;
+  line-height: 23px;
+}
+
+.class_elective{
+  width: 160px;
+  height: 54px;
+}
+
+.class_elective_title{
+  color: #5c9163;
+  font-size: 14px;
+  border-right: 1px solid #96b79a;
+}
+
+.class_elective_content{
+  padding: 0 58px 0 19px;
+  font-size: 13px;
+  text-align: left;
+  color: #7f7f7f;
+}
+
+.class_elective_content>span{
+  color: #5c9163;
+  line-height: 23px;
+}
+
+.class_cost{
+  width: 838px;
+  height: 41px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 41px;
+  color: #5c9163;
+  background-color: #fff;
+  border-top: 10px solid #96b79a;
+  border-bottom: 8px solid #96b79a;
+}
+
+/*---------维多利亚市公立高中学校-----------*/
+.school{
+  width: 1022px;
+  height: 196px;
+  margin: 0  auto;
+  text-align: center;
+}
+
+.school_title{
+  width: 440px;
+  height: 41px;
+  font-size: 27px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #2d888b;
+  text-align: center;
+  line-height: 41px;
+  margin: 49px 0 0 28%;
+}
+
+.school_title_eng{
+  height: 17px;
+  color: #2c878a;
+  border-top:1px solid #2c878a;
+}
+
+.school_content{
+  width: 670px;
+  height: 88px;
+  text-align: center;
+  line-height: 22px;
+  font-size: 14px;
+  color: #2d888b;
+  padding: 27px 0 0 173px;
+}
+
+.school_img{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.school_introduce{
+  width: 1022px;
+  height: 311px;
+  margin: 0  auto;
+}
+
+.school_city{
+  width: 506px;
+  height: 299px;
+  display: inline-block;
+}
+
+.school_city_title{
+  color: #469194;
+  font-size: 13px;
+  margin-top: 30px;
+  line-height: 23px;
+}
+
+.school_city_content{
+  width: 491px;
+  text-indent: 24px;
+  font-size: 12px;
+  color: #717171;
+  line-height: 22px;
+}
+
+.school_class{
+  margin-left: 5px;
+  width: 506px;
+  height: 299px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.school_class_title{
+  color: #469194;
+  font-size: 13px;
+  margin-top: 30px;
+  line-height: 23px;
+}
+
+.school_class_content01{
+  width: 491px;
+  text-indent: 24px;
+  font-size: 12px;
+  color: #717171;
+  line-height: 22px;
+}
+
+.school_class_content02{
+  width: 491px;
+  text-indent: 24px;
+  font-size: 12px;
+  color: #717171;
+  line-height: 22px;
+}
+
+
+/*---------纳奈莫市公立高中学校------------------*/
+.nanaischool{
+  width: 1022px;
+  height: 196px;
+  margin: 0  auto;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.nanaischool_title{
+  width: 440px;
+  height: 41px;
+  font-size: 27px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #2d888b;
+  text-align: center;
+  line-height: 41px;
+  margin: 49px 0 0 271px;
+}
+
+.nanaischool_title_eng{
+  height: 17px;
+  color: #2c878a;
+  border-top:1px solid #2c878a;
+}
+
+.nanaischool_content{
+  width: 670px;
+  height: 106px;
+  text-align: center;
+  line-height: 22px;
+  font-size: 14px;
+  color: #2d888b;
+  padding: 27px 0 0 173px;
+}
+
+.nanaischool_img{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*加拿大政府公立高中直通车*/
+.car{
+  background:url(../images/car.png);
+}
+
+.car_main{
+  width: 1022px;
+  margin: 0 auto;
+  height: auto;
+  padding-bottom: 60px;
+}
+
+.car_title{
+  width: 1022px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 56px;
+}
+
+.car_title_china{
+  width: 440px;
+  height: 41px;
+  font-size: 27px;
+  color: #2d868c;
+  font-weight: bold;
+  background-color: #fff;
+  text-align: center;
+  line-height: 41px;
+  margin-left: 271px;
+}
+
+.car_title_eng{
+  height: 5px;
+  border-top:1px solid #fff;
+}
+
+.car_content_green{
+  margin-top: 30px;
+}
+
+.car_content_green img{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.car_content_01{
+  display: inline-block;
+  width: 400px;
+  font-size: 12px;
+  color: #fff;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.car_content_01>h1{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.car_content_01>p{
+  line-height: 23px;
+}
+
+/*选择北外*/
+.choose_title{
+  width: 1022px;
+  height: 134px;
+  margin: 0  auto;
+  text-align: center;
+}
+
+.choose_title_china{
+  width: 440px;
+  height: 41px;
+  font-size: 27px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #ef6a6f;
+  text-align: center;
+  line-height: 41px;
+  margin: 49px 0 0 271px;
+}
+
+.choose_title_eng{
+  height: 17px;
+  color: #ef6a6f;
+  border-top:1px solid #ef6a6f;
+}
+
+.choose_main{
+  width: 1022px;
+  margin: 0 auto 48px;
+  background-color: #ef6a6f;
+}
+
+.choose_img01{
+  display: inline-block;
+}
+
+.choose_content{
+  width: 505px;
+  height: 292px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #ef6a6f;
+}
+
+.choose_content_title{
+  font-size: 23px;
+  color: #fff;
+  margin-top: 51px;
+  padding-left: 22px;
+}
+
+.choose_content_p{
+  font-size: 18px;
+  color:#fff;
+  line-height: 32px;
+  text-indent: 36px;
+  padding: 64px 17px 0 14px;
+}
+
+/*中加中学学制对比*/
+.middle_background{
+  margin: 0 auto;
+  background-color: #f3f3f3;
+}
+
+.middle_main{
+  width: 1022px;
+  margin: 0 auto;
+}
+
+.middle_left{
+  width: 512px;
+  height: 563px;
+  display: inline-block;
+}
+
+.middle_title{
+  width: 512px;
+  height: 73px;
+  margin: 0  auto;
+  text-align: center;
+  padding-top: 21px;
+}
+
+.middle_title_china{
+  width: 221px;
+  height: 36px;
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #5d9163;
+  text-align: center;
+  line-height: 36px;
+  margin-left: 132px;
+}
+
+.middle_title_eng{
+  height: 17px;
+  color: #2c878a;
+  border-top:1px solid #2c878a;
+}
+
+.middle_content{
+  font-size: 14px;
+  color: #747474;
+  line-height: 25px;
+  text-indent: 28px;
+}
+
+.middle_table{
+  width: 484px;
+  margin-top: 42px;
+  font-size: 13px;
+}
+
+.middle_country{
+  width: 484px;
+  height: 34px;
+  background-color: #5d9163;
+  color: #fff;
+}
+
+.middle_country>th{
+  width: 118px;
+  border:solid #f3f3f3;
+  border-width:0px 6px 6px 0px;
+}
+
+.middle_tr>td{
+  color: #5d9163;
+  width: 118;
+  height: 34px;
+  font-size: 13px;
+  text-align: center;
+  background-color: #fff;
+  border:solid #f3f3f3;
+  border-width:0px 6px 6px 0px;
+}
+
+.middle_right{
+  background-color: #5c9261;
+  width: 505px;
+  height: 563px;
+  display:inline-block;
+  vertical-align: top;
+}
+
+/*加拿大公立高中直通车培养模式*/
+.cultivate_title{
+  width: 505px;
+  height: 73px;
+  margin: 0  auto;
+  text-align: center;
+  padding-top: 21px;
+}
+
+.cultivate_title_china{
+  width: 341px;
+  height: 37px;
+  font-size: 22px;
+  color: #5c9261;
+  font-weight: bold;
+  background-color: #fff;
+  text-align: center;
+  line-height: 36px;
+  margin-left: 97px;
+}
+
+.cultivate_title_eng{
+  height: 17px;
+  width: 478px;
+  margin-left: 32px;
+  border-top:1px solid #fff;
+}
+
+.cultivate_content{
+  color: #fff;
+  line-height: 26px;
+  font-size: 14px;
+  margin-left: 32px;
+  padding-bottom: 47px;
+}
+
+.cultivate_01{
+  width: 320px;
+  height: 45px;
+  background-color: #fff;
+  color:#5c9261;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 0 0 29px 105px;
+}
+
+/*师资介绍*/
+.signup{
+  width: 1022px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.introduction{
+  width: 1022px;
+  height: 152px;
+  position: relative;
+}
+
+.introduction_leftimg{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 45px;
+}
+
+.introduction_title{
+  display: inline-block;
+  width: 140px;
+  height: 54px;
+  font-size: 28px;
+  margin-top: 30px;
+  padding-top: 10px;
+  text-align: center;
+  vertical-align: top;
+  color: #558f5f;
+}
+
+.introduction>span{
+  position: absolute;
+  left: 5%;
+  top:50%;
+  font-size: 13px;
+  color: #558f5f;
+}
+
+.introduction_content{
+  display: inline-block;
+  width: 764px;
+  height: 152px;
+  font-size: 18px;
+  color: #558f5f;
+  line-height: 25px;
+  margin: 45px 0 0 15px;
+}
+
+.enrollment{
+  width: 1022px;
+  height: 339px;
+}
+
+.enrollment_img{
+  margin-bottom: 36px;
+}
+
+.enrollment_ul>li{
+  color: #8c8c8c;
+  margin-bottom: 15px;
+}
+
+.enrollment_ul>li>span{
+  color: #5d9268;
+  font-size: 18px;
+}
+
+.enrollment_edit{
+  color: #fe504f;
+  margin-bottom: 69px;
+}
+
+.life_img{
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.process{
+  margin: 20px 0 10px;
+  background: #2c878a;
+}
+
+footer{
+  background-color: #7d7d7d;
+}
+
+.footer_main{
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer_main>ul>li:first-of-type{
+  padding-top: 24px;
+}
+
+.footer_main>ul>li{
+  padding-bottom: 13px;
+}

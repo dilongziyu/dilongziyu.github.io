@@ -1,0 +1,377 @@
+/*-----default model-----*/
+body,h1, h2, h3, h4, h5, h6,p,ul, ol, dl, dd,figure, menu, input, textarea, button, select, th, td {margin: 0;padding: 0;}
+h1, h2, h3, h4, h5, h6,b, strong {font-size: 100%;font-weight: normal;}
+li {list-style: none;}
+em, i {font-style: normal;}
+input,textarea,button,select {outline: 0 none;}
+textarea {resize: vertical;}
+input[type="button"],input[type="submit"],input[type="reset"] {-webkit-appearance: none;appearance: none;}
+html,body {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);-webkit-touch-callout: none;-webkit-user-select: none;user-select: none;word-wrap: break-word;}
+a {text-decoration: none;outline: 0 none; color: inherit;}
+
+body{
+  width: 100%;
+  height: auto;
+  font-family:'Microsoft Yahei', Simsun;
+  background-color: #fff;
+}
+
+.inline_block{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.clear{
+  clear: both;
+}
+
+.header_background{
+  background-color: #f2f2f2;
+  height: 32px;
+}
+
+.header_main{
+  width: 1002px;
+  height: 32px;
+  font-size: 12px;
+  color: #666;
+  margin: 0 auto;
+}
+
+.header_left,.search_left,.nav_left{
+  float: left;
+}
+
+.header_right,.search_right,.nav_right{
+  float: right;
+}
+
+.header_weichat_service{
+  margin-right: 18px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.header_QQ_service{
+  text-align: center;
+  line-height: 32px;
+}
+
+.header_phone_image{
+  margin-right: 7px;
+  margin-top: 5px;
+}
+
+.header_phone{
+  width: 61px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  padding-right: 19px;
+  border-right: 1px solid #666;
+  margin: 9px 19px 9px 0;
+}
+
+.header_recharge{
+  width: 49px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  padding-right: 18px;
+  border-right: 1px solid #666;
+  margin: 9px 13px 9px 0;
+}
+
+.header_user{
+  color: #eb533a;
+  margin-right: 8px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.header_exit{
+  text-align: center;
+  line-height: 32px;
+}
+
+.search{
+  width: 1002px;
+  height: 70px;
+  margin: 0 auto;
+  font-size: 17px;
+  color:#999;
+}
+
+.search_adv_img{
+  margin-top: 14px;
+}
+
+.search_adv{
+  text-align: center;
+  line-height: 70px;
+}
+
+.search_right{
+  position: relative;
+}
+
+.search_img{
+  position: absolute;
+  top:25px;
+  right: 9px;
+}
+
+.search_input{
+  height: 38px;
+  width: 299px;
+  margin-top: 15px;
+  color: #e6e6e6;
+  border: 1px solid #e6e6e6;
+  padding-left: 9px;
+  padding-right: 40px;
+}
+
+.nav_background{
+  background-color: #eb533a;
+  height: 50px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.nav_main{
+  width: 1002px;
+  height: inherit;
+  margin: 0 auto;
+  font-size: 17px;
+  color: #fff;
+}
+
+.nav_home{
+  text-align: center;
+  line-height: 50px;
+  margin: 0 51px 0 31px;
+}
+
+.nav_celebrity{
+  text-align: center;
+  line-height: 50px;
+  margin-right: 51px;
+}
+
+.nav_answer{
+  text-align: center;
+  line-height: 50px;
+  margin-right: 51px;
+}
+
+.nav_imitate{
+  text-align: center;
+  line-height: 50px;
+  margin-right: 51px;
+}
+
+.nav_report{
+  text-align: center;
+  line-height: 50px;
+}
+
+.nav_right{
+  background-color: #e63217;
+}
+
+.nav_center{
+  text-align: center;
+  line-height: 50px;
+}
+
+.section_background{
+  background-color: #fff;
+
+}
+
+.section_main{
+  width: 1002px;
+  margin: 0 auto;
+}
+
+.section_left{
+  float: left;
+  width: 178px;
+  height: 738px;
+  border: 1px solid #e6e6e6;
+  background-color: #fafafa;
+}
+
+.section_block{
+  width: 178px;
+  height: 58px;
+  color: #999;
+  font-size: 16px;
+}
+
+.section_img{
+  margin:17px 9px  0 41px;
+}
+
+.section_word{
+  margin-right: 33px;
+  text-align: center;
+  line-height: 58px;
+}
+
+.section_hischarge{
+  color: #eb533a;
+  background-color: #fff;
+  border-top:1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  border-right: 1px solid #fff;
+}
+
+.section_right{
+  float: right;
+  height: 738px;
+  width: 820px;
+  background-color: #fff;
+  border-top: 1px solid #e6e6e6;
+  border-right:  1px solid #e6e6e6;
+  border-bottom:  1px solid #e6e6e6;
+
+}
+
+.section_h1{
+  font-size: 18px;
+  width: 696px;
+  color: #333;
+  padding-left: 9px;
+  margin: 60px 54px 7px 60px;
+  border-left: 2px solid #eb533a;
+}
+
+/*.section_title{
+  width: 696px;
+
+  height: 40px;
+  color: #333;
+  line-height: 40px;
+  background-color: #f5f5f5;
+  margin-left: 60px;
+}
+
+.section_time{
+  padding-left: 59px;
+  padding-right: 131px;
+}
+
+.section_num{
+  padding-right: 145px;
+}
+
+.section_load{
+  padding-right: 145px;
+}
+
+.section_bank{
+  height:19px;
+  width: 696px;
+  margin-left: 60px;
+  border-top: 1px solid #ccc;
+}
+
+.section_content{
+  width: 696px;
+
+  height: 31px;
+  color: #999;
+  line-height: 31px;
+  background-color: #fafafa;
+  margin-left: 60px;
+}
+
+.section_time_content{
+  padding-left: 44px;
+  padding-right: 103px;
+}
+
+.section_coin{
+  padding-right: 125px;
+}
+
+.section_pay{
+  padding-right: 137px;
+}*/
+
+.section_table{
+  background-color: #fafafa;
+  width: 701px;
+  height: auto;
+  margin:0 59px 0 60px;
+  border-collapse: collapse;
+}
+
+.section_h1{
+  font-size: 18px;
+  color: #333;
+  padding-left: 9px;
+  margin: 60px 0 7px 60px;
+  border-left: 2px solid #eb533a;
+}
+
+.section_bank{
+  height: 19px;
+  border-top: 1px solid #ccc;
+}
+
+
+.section_th>th{
+  color: #333;
+  padding: 13px 14px 13px 15px;
+  background-color: #f5f5f5;
+}
+
+.section_td{
+  color: #999;
+  text-align: center;
+}
+
+.footer_background{
+  background-image: url(../images/footer_background.png);
+  background-repeat: repeat-x;
+}
+
+.footer_main{
+  width: 1002px;
+  margin:0 auto;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+
+.footer_first{
+  margin-top: 20px;
+}
+
+.footer_about{
+  padding: 0 15px 0 0;
+  border-right: 1px solid #616568;
+  margin: 20px 0 20px 0;
+}
+
+.footer_connect{
+  padding: 0 15px 0 14px;
+  border-left: 1px solid #616568;
+  border-right: 1px solid #616568;
+  margin: 20px 0 20px 0;
+}
+
+.footer_help{
+  padding-left: 14px;
+  border-left: 1px solid #616568;
+  margin: 20px 0 20px 0;
+}
+
+.footer_advisory{
+  margin-bottom: 18px;
+}
+
+.footer_study{
+  padding-bottom: 50px;
+}

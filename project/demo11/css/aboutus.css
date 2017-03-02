@@ -1,0 +1,254 @@
+/*-----default model-----*/
+body,h1, h2, h3, h4, h5, h6,p,ul, ol, dl, dd,figure, menu, input, textarea, button, select, th, td {margin: 0;padding: 0;}
+h1, h2, h3, h4, h5, h6,b, strong {font-size: 100%;font-weight: normal;}
+li {list-style: none;}
+em, i {font-style: normal;}
+input,textarea,button,select {outline: 0 none;}
+textarea {resize: vertical;}
+input[type="button"],input[type="submit"],input[type="reset"] {-webkit-appearance: none;appearance: none;}
+html,body {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);-webkit-touch-callout: none;-webkit-user-select: none;user-select: none;word-wrap: break-word;}
+a {text-decoration: none;outline: 0 none;color:inherit}
+
+body{
+  width: 100%;
+  height: auto;
+  font-family:'Microsoft Yahei', Simsun;
+}
+
+.inline_block{
+  display: inline-block;
+  vertical-align:top;
+}
+
+header{
+  height: 96px;
+  width: auto;
+}
+
+.header_contain{
+  height: 96px;
+  width: 1022px;
+  margin: 0 auto;
+}
+
+.header_input{
+  width: 275px;
+  height: 30px;
+  background-color: #88c6c9;
+  padding-left: 10px;
+  padding-right: 10px;
+  border:solid 2px #6da7aa;
+  border-radius: 10px 0 0 10px;;
+  margin: 40px 0 26px 0;
+  vertical-align:top;
+}
+
+.header_input_search{
+  display: inline-block;
+  width: 55px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  border-radius:0 10px 10px 0;
+  background-color: #6da7aa;
+  color: #fff;
+  vertical-align: top;
+  margin-top: 40px;
+  margin-right: 40px;
+  font-size: 13px;
+}
+
+.header_right{
+  display: inline-block;
+  vertical-align: top;
+  width: 192px;
+  font-size: 12px;
+  margin-top: 23px;
+}
+
+
+
+.header_webset,.header_contact{
+  border-right: 2px solid #2f89d4;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.header_advisory{
+  font-size: 14px;
+  margin-top: 17px;
+  padding-left: 5px;
+  color: #534c47;
+}
+
+nav{
+  background-color: #88c6c9;
+  height: 42px;
+}
+
+.nav_main{
+  width: 1022px;
+  height: 42px;
+  margin: 0 auto;
+  color: #fff;
+  font-size:14px;
+}
+
+.nav_ameschool{
+  width: 152px;
+  height: inherit;
+  padding: 0 23px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.nav_canaschool{
+  width: 166px;
+  height: inherit;
+  padding: 11px 13px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.nav_prep{
+  width: 62px;
+  height: inherit;
+  padding: 0 41px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.nav_aboutus{
+  width: 59px;
+  height: inherit;
+  padding: 11px 39px;
+  text-align: center;
+  line-height: 42px;
+  background-color: #52a1a4;
+}
+
+.nav_connect{
+  width: 60px;
+  padding: 0 41px;
+  height: inherit;
+  text-align: center;
+  line-height: 42px;
+}
+
+.nav_online{
+  width: 60px;
+  padding: 0 39px;
+  height: inherit;
+  text-align: center;
+  line-height: 42px;
+}
+
+.connect_main{
+  width: 1022px;
+  margin: 0 auto;
+}
+
+aside{
+  display: inline-block;
+  width: 277px;
+  height: 735px;
+}
+
+.aside_title{
+  width: 277px;
+  height: 43px;
+  background-color: #2c878a;
+  margin-top: 23px;
+  padding-top: 21px;
+  margin-bottom: 56px;
+}
+
+.aside_title>h1{
+  text-align: center;
+  width: 105px;
+  height: 24px;
+  color: #fff;
+  border-left: 5px solid #fff;
+  padding-left: 13px;
+  margin-left: 28px;
+  margin-bottom: 19px;
+}
+
+.aside_img{
+  margin-bottom: 20px;
+}
+
+.connect_right{
+  display: inline-block;
+  width: 719px;
+  height: 735px;
+  vertical-align: top;
+  margin-top: 23px;
+}
+
+.connect_nav{
+  text-align: right;
+  height: 40px;
+  width: inherit;
+  line-height: 40px;
+  font-size: 12px;
+  border-top: 5px solid #2c878b;
+  color: #5f5f5f;
+  background-color: #f2f2f2;
+}
+
+.connect_nav>a:last-of-type{
+  padding-right: 15px;
+}
+
+.connect_content{
+  margin-top: 3px;
+  background-color: #f2f2f2;
+  height: 687px;
+}
+
+.connect_content>h1{
+  color: #2c878b;
+  font-size: 20px;
+  width: 719px;
+  height: 72px;
+  text-align: center;
+  line-height: 72px;
+  font-weight: bold;
+}
+
+.connect_content>img{
+  margin-left: 38px;
+  margin-bottom: 25px;
+}
+
+.connect_content>ul>li{
+  font-size: 12px;
+  margin-left: 38px;
+  margin-bottom: 25px;
+  color: #717171;
+  margin-right: 45px;
+}
+
+
+
+footer{
+  background-color: #7d7d7d;
+}
+
+.footer_main{
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer_main>ul>li:first-of-type{
+  padding-top: 24px;
+}
+
+.footer_main>ul>li{
+  padding-bottom: 13px;
+}

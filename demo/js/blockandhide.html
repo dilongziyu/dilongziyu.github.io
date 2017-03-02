@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #div1{
+        width: 100px;
+        height: 100px;
+        background: red;
+        display: block;
+      }
+    </style>
+    <script type="text/javascript">
+    window.onload=function(){
+      var oBtn=document.getElementById('btn1');
+      
+      oBtn.onclick=function(){
+            var oDiv1=document.getElementById('div1');
+            if(oDiv1.style.display=='block'||oDiv1.style.display=='')
+            {
+              oDiv1.style.display='none';
+              console.log('a'+oDiv1.style.display);
+            }else{
+              oDiv1.style.display='block';
+              console.log(oDiv1.style.display);
+            }
+        };
+    }
+    </script>
+  </head>
+  <body>
+    <input type="button" name="" value="显示" id="btn1">
+    <div id="div1"></div>
+
+
+  </body>
+</html>

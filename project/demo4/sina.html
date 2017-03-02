@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="sina.css">
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<header class="top">
+			<a href="#"><img src="image/index.gif"></a>
+			<input type="text" name="search" value="">
+		</header>
+		<header class="second">
+			<a href="#"><h1>easterking的博客</h1></a>
+			<p>
+				<a href="#">http://blog.sina.com.cn/easterking</a>
+				<a href="#">[订阅]</a>
+				<a href="#">[手机订阅]</a>
+			</p>
+			<p>
+				<a href="#">首页</a>
+				<a href="#">博客目录</a>
+				<a href="#">图片</a>
+				<a href="#">关于我</a>
+			</p>
+		</header>
+		
+		<div id="tablerow">
+			<section>
+				<h1>正文</h1>
+				<h2>js回调函数(callback)（转载）<time>(2011-08-22 23:15:23)</time></h2>
+				<p>
+					标签：<a href="#">jquery</a><a href="#">it</a> 分类：<a href="#">计算机类</a>
+				</p>
+				<p>
+						学习jquery时，对回调函数感觉很困惑，在晚上找了半天，忽然发现这篇文章很浅显，基本说明了问题。故转载<br />
+					原文：
+					自学jquery的时候，看到一英文词（Callback），顿时背部隐隐冒冷汗。迅速google之，发现原来中文翻译成回调。也就是回调函数了。不懂啊，于是在google回调函数，发现网上的中文解释实在是太“深奥”了，我承认自己才疏学浅了。看了几个回调的例子后，貌似有点理解了。下面是我对回调函数的理解，要是理解错了，请指正，不甚感激。
+							<br />首先还是从jquery网站上的英文定义入手，身为国人，我真感到悲剧。一个回调的定义被国内的“高手”解释成什么样，就在那绕圈子，貌似只有把你绕进去了，他才算高手。浮云，一切都是浮云。<br />
+					A callback is a function that is passed as an argument to another function and is executed after its parent function has completed.<br />
+					这是js里的解释了，其他语言的算我没说。<br />
+					字面上理解下来就是，回调就是一个函数的调用过程。那么就从理解这个调用过程开始吧。函数a有一个参数，这个参数是个函数b，当函数a执行完以后执行函数b。那么这个过程就叫回调。<br />
+					其实中文也很好理解：回调，回调，就是回头调用的意思。函数a的事先干完，回头再调用函数b。<br />
+					举个现实的例子：约会结束后你送你女朋友回家，离别时，你肯定会说：“到家了给我发条信息，我很担心你。”对不，然后你女朋友回家以后还真给你发了条信息。小伙子，你有戏了。<br />
+					其实这就是一个回调的过程。你留了个函数b（要求女朋友给你发条信息）给你女朋友，然后你女朋友回家，回家的动作是函数a。她必须先回到家以后，函数a的内容执行完了，再执行函数b，然后你就收到一条信息了。<br />
+					这里必须清楚一点：函数b是你以参数形式传给函数a的，那么函数b就叫回调函数。<br />
+					 也许有人有疑问了:一定要以参数形式传过去吗，我不可以直接在函数a里面调用函数b吗？确实可以。求解中。<br />
+				<div id="text-red">
+					<解惑:如果你直接在函数a里调用的话，那么这个回调函数就被限制死了。但是使用函数做参数就有下面的好处：当你a(b)的时候函数b就成了回调函数，而你还可以a(c)这个时候，函数c就成了回调函数。如果你写成了function a(){...;b();}就失去了变量的灵活性。>
+				</div>
+				<br />下面用代码来证实我的理解。
+				</p>
+				<textarea>
+<div id="code">
+	<html> 
+	<head> 
+	<title>回调函数(callback)</title> 
+	<script language="javascript" 
+			type="text/javascript"> 
+	function a(callback) 
+	{    
+		alert("我是parent函数a！"); 
+		alert("调用回调函数"); 
+		callback(); 
+	} 
+	function b(){ 
+	alert("我是回调函数b"); 
+	} 
+	function c(){ 
+	alert("我是回调函数c"); 
+	} 
+	function test() 
+	{ 
+		a(b); 
+	   a(c); 
+	} 
+	 
+	</script> 
+	</head> 
+	<body> 
+	<h1>学习js回调函数</h1> 
+	<button onClick=test()>click me</button> 
+	<p>应该能看到调用了两个回调函数</p> 
+	</body> 
+	 
+	</html> 
+</div>
+				</textarea>
+				<p>
+					<button class="like"><i>喜欢</i></button>
+					<button class="gold-pen"><i>金笔</i></button>
+				</p>
+				
+				<p>
+					分享：	<a href="#"><img src="image/sian.jpg" alt="新浪" title="分享到新浪微博" /></a>
+							<a href="#"><img src="image/sian.jpg" alt="微信" title="分享到微信" /></a>
+							<a href="#"><img src="image/sian.jpg" alt="qqzone" title="分享到QQ空间" /></a>
+							<a href="#"><img src="image/sian.jpg" alt="豆瓣" title="分享到豆瓣" /></a>
+							<a href="#"><img src="image/sian.jpg" alt="More" title="更多平台" /></a>
+				</p>
+				<p>
+					阅读（14645）<a href="#">评论</a>(6)<a href="#">收藏<a>(2)<a href="#">转载</a><a href="#">喜欢</a> 打印 举报
+				</p>
+			</section>
+			
+			<aside>
+			<div id="a">
+				<h2>个人资料</h2>
+				<img src="image/people.jpg" alt="头像"/>
+				<label>easterking</label>
+				<div class="button">
+					<button class="like"><i>加好友</i></button>
+					<button class="like"><i>发纸条</i></button>
+					<button class="like"><i>写留言</i></button>
+					<button class="like"><i>加关注</i></button>
+				</div>
+				<img src="image/guanggao.jpg" alt="广告" />
+					博客等级：12	<br />
+					博客积分：63	<br />
+					博客访问：17095	<br />
+					关注人气：1	<br />
+					获赠金笔：9	<br />
+					赠出金笔：0	<br />
+					荣誉勋章：1 2 3 4<br />
+			</div>
+			<div id="b">
+				相关博文<br />
+			</div>
+			<div id="c">
+				推荐博文:<br />
+			</div>
+			<div id="d">
+				谁看过这片博文
+			</div>
+		</div>
+	<footer>
+		<a href="#">新浪BLOG意见反馈留言表</a> <a href="不良信息反馈"></a>电话：4006900000 提示音后按1键（按当地市话标准计费） 欢迎批评指正<br />
+		<a href="#">新浪简介|</a>
+		<a href="#"> About Sina |</a>
+		<a href="#"> 广告服务 |</a>
+		<a href="#">联系我们 |</a>
+		<a href="#">招聘信息 |</a>
+		<a href="#">网站律师 |</a>
+		<a href="#">SINA English |</a>
+		<a href="#">会员注册 |</a>
+		<a href="#">产品答疑</a><br />
+		
+	</footer>
+	</body>
+	
+</html>

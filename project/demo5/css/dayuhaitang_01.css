@@ -1,0 +1,152 @@
+/*-----default model-----*/
+body,h1, h2, h3, h4, h5, h6,p,ul, ol, dl, dd,figure, menu, input, textarea, button, select, th, td {margin: 0;padding: 0;}
+h1, h2, h3, h4, h5, h6,b, strong {font-size: 100%;font-weight: normal;}
+li {list-style: none;}
+em, i {font-style: normal;}
+input,textarea,button,select {outline: 0 none;}
+textarea {resize: vertical;}
+input[type="button"],input[type="submit"],input[type="reset"] {-webkit-appearance: none;appearance: none;}
+html,body {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);-webkit-touch-callout: none;-webkit-user-select: none;user-select: none;word-wrap: break-word;}
+a {text-decoration: none;outline: 0 none;}
+
+body{
+  height: auto;
+  width: 1100px;
+  /*background-color: teal;*/
+  font-family:'Microsoft Yahei', Simsun;
+}
+
+.inline_block{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.lt{
+  height: 153px;
+  margin-left:45px;
+  line-height: 153px;
+}
+
+.background_color{
+  background-color: teal;
+  height: 653px;
+}
+
+.div_pic{
+  margin:0 39px 66px 45px;
+  float: left;
+}
+
+/*大鱼海棠*/
+.div_title{
+  height: 46px;
+  margin: 25px 299px 91px 0;
+  font-size: 46px;
+  color: #efefef;
+  line-height: 46px;
+  vertical-align: top;
+  /*background-color: yellow;*/
+}
+
+/*8.5*/
+.score{
+  width: 100px;
+  height: 51px;
+  font-size: 51px;
+  color: #F19715;
+  line-height:51px
+  vertical-align: top;
+  margin:25px 63px 91px 0;
+}
+
+.font_style{
+  font-size: 30px;
+  color: #e6e6e6;
+}
+
+/*动画 奇幻 剧情*/
+.div_style{
+  /*background-color: red;*/
+  margin: 0 0 21px 0;
+}
+
+/*中国大陆*/
+.div_area{
+  height: 31px;
+  margin:0 0 47px 0;
+}
+/*内容*/
+.neirong{
+  font-size: 31px;
+  margin-bottom: 20px;
+}
+
+/*导航*/
+.nav{
+width: 1100px;
+height: 128px;
+clear: both;
+border-top: solid 1px #666;
+border-bottom: solid 1px #c8c8c8;
+}
+
+/*全部框*/
+.nav_block{
+  width: 359px;
+  height: 126px;
+
+}
+
+
+/*全部*/
+.nav_content{
+  width: 359px;
+  height: 51px;
+  text-align: center;
+  line-height: 51px;
+  font-size: 42px;
+  color:#f09715;
+  margin: 39px 0;
+border-right: solid 1px #c9c7c8;
+}
+
+/*
+.article_block{
+  width: 513px;
+  height: 414px;
+}*/
+.article{
+  width: 1100px;
+  height: 414px;
+}
+/*撼动心灵的美*/
+.article_title{
+  width: 470px;
+  height: 125px;
+  font-size: 50px;
+  color: #222;
+  margin: 58px 11px 130px 43px;
+}
+
+/*经典电影分享*/
+.ad{
+  width: 322px;
+  height: 38px;
+  font-size: 30px;
+  color: #999;
+  margin: 0 103px 64px 43px;
+}
+
+
+
+.article_img{
+  width: 567px;
+  height: 415px;
+  text-align: center;
+  line-height: 415px;
+  float: left;
+}
+
+.img_pic{
+  vertical-align: middle;
+}

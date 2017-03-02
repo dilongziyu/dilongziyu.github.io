@@ -1,0 +1,45 @@
+任职要求：
+1) 2年以上Web开发工作经验，精通javascript、Ajax、 jquery
+2) 具有2个以上的完整Web前端开发经验
+3) 有web界面自适应开发经验
+4) 深刻理解Web标准，对可用性、可访问性等相关知识有实际的了解和实践经验；
+职位要求：
+1.精通JavaScrit、Ajax等Web开发技术；
+2.精通HTML/XHTML、CSS等网页制作技术，熟悉页面架构和布局；
+3.熟悉W3C标准，对表现与数据分离、Web语义化等有较为深刻的理解；
+具有以下能力者优先考虑：
+1.熟悉Linux平台，掌握PHP、Java中至少一种后端开发语言；
+2.能够理解数据结构和算法设计，具有一定的软件工程意识；
+3.有Hybrid App开发经验；
+ 
+1）精通Html/Css/JavaScript等前端技术，熟悉jQuery、backbone、prototype等一种或多种js框架； 
+2）熟悉Easyui/Divml/Ajax主流控件，熟悉B/S架构和常见页面布局，并解决常用浏览器的兼容性问题； 
+3）熟悉 Java开发与主流j2ee框架，了解Bootstrap ReactJS AngularJS 为佳； 
+4）对后端程序开发有一定了解，熟悉Mysql数据库的开发，能对前后端贯通进行优化； 
+5）熟练运用HTML5、CSS3进行合理的网页制作为加分项，需要对新技术有较强的学习能力； 
+任职要求：
+2.精通Javascript及主流js库，有前台开发经验者优先考虑；
+3.熟悉EXT JS技术优先考虑；
+4.精通HTML5和CSS3； 具有快速界面开发的能力；
+5.有面向移动设备的Web前端开发经验；
+6.熟悉移动终端特性，尤其是主流移动浏览器的模式和特性；
+7.熟悉敏捷开发方式；
+11.对svn版本控制工具熟练使用；
+12.对PHP语言了解的优先。
+
+2 、精通 Javascript, 熟悉Jquery 框架 ,并且熟悉代码分析和代码调试；
+3 、熟练使用各种 Web 前端技术 , 包括(X)HTML/CSS/Javascript 等 ,能快速处理主流浏览器的兼容问题 , 能手写代码；
+4 、熟悉后台Java开发，比如spingmvc,mybatis等框架；
+
+3.熟悉各种前端开发技术（包括HTML，HTML5，CSS，JavaScript，jquery， ExtJS, AngularJS等）；
+
+熟悉各种Web前端技术(x)HTML/XML/CSS/Javascript/ActionScript/Ajax/JQuery/CSS等），熟悉responsive页面编写
+
+熟悉angularjs，或emberjs,backbone
+
+对目前互联网流行的网页制作方法（Web2.0）DIV+CSS，以及各大浏览器兼容性有深入了解
+
+对用户体验，交互设计等有深入的理解对前端页面代码结构及前端交互性能有深入的理解
+
+熟悉 HTML5，熟悉nodejs尤佳
+ 

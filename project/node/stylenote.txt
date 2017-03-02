@@ -1,0 +1,131 @@
+body{
+	font-family:Verdana,Geneva,Arial,sans-serif;
+	font-size:14px;
+	color:sliver;
+	background-color: rgb(80%,40%,0%);
+}
+x磅=（x/72）*96=y px
+.greentea{
+	border-color:black;	边框黑色
+	border-width:1px	1像素宽
+	border-style:solid;	实线
+	border-radius:15px;
+	/*
+	groove:		槽线
+	double:		双线
+	dotted:		虚线
+	dashed:		破折线
+	inset:		内凹
+	outset:		外凸
+	ridge:		脊线
+	*/
+	background-color:#a7cece;边距之间的颜色
+	padding:25px;	内容的四周增加25像素的内边?
+	/*
+	padding-left	左边距
+	padding-right	右边距
+	padding-top		上边距
+	padding-bottom	下边距
+	*/
+	margin:30px;	内容的四周增加30像素的外边距
+	background-image:url(image/background.gif);
+	background-repeat:no-repeat;	背景图片不重复
+	/*
+	background-repeat:repeat;	水平和垂直方向重复
+	repeat-x	只在水平方向重复
+	repeat-y	只在垂直方向重复
+	inherit		按父元素的设置来处理
+	*/
+	background-position:top left;	左上角
+}
+
+
+h1{
+	font-size:150%;/*(1.2em:表示比例为1.2)*/
+	/*(关键字:xx-small,x-small,small,medium,large,x-large,xx-large)(前一个比后一个大20%)*/
+}
+
+@font-face{
+	font-family:"Emblema One";
+	src:url("http://www.baidu.com/hfhtmlcss/Emblema.woff"),
+	src:url("http://www.baidu.com/hfhtmlcss/Emblema.ttf");
+}
+
+@import:允许导入其他CSS文件，
+@media：允许创建特定于某些“媒体类型的CSS规则(印刷页，桌面屏幕或手机)”
+/*
+font:	Andale,Arial,Arial Black,Comic Sans,Courier New,Georgia,impact,Times New Roman,Trebuchet MS,Verdana.
+color:	aqua(亮蓝),black(黑色),blue,fuchsia(粉色),gray,green,lime(亮绿),maroon(褐红),navy(海蓝),olive(土灰),purple,red,silver(),teal(茶色),white,yellow.
+font-weight:	lighter,normal,bold,bolder.
+text-decoration:	none,underline,overline(一个上划线和一个下划线),line-through.
+font-family:	sans-serif(在计算机上更容易识读),serif,monospace(用于显示代码示例),cursive(手写字体),fantasy(装饰性字体).
+font-style:	italic,not italic.oblique(倾斜);
+*/
+
+<del>:标记要删除的内容
+<ins>:标记要插入的内容
+
+
+/*
+h1,h2{
+		
+		color:		gray;
+}
+h1{
+		border-bottom: 1px solid gray;
+}
+
+
+p{
+	background-color: gray;
+	border: 1px solid gray;
+	
+}
+blockquote.greentea{
+	color: purple;
+}
+p.redtea{color:red;}
+
+p.blueberry{color:blue}
+p.raspberry{color:yellow;}
+
+*/
+/*
+如果需要greentea中的所有对象都用一样的样式，则：
+.greentea{
+	color:puple;
+}
+
+color:				控制文本的粗细
+font-weight:		控制文本的粗细
+left:				利用这个属性指定一个元素左边所在的位置		
+line-height:		利用这个属性设置一个文本元素中的行间距
+top:				控制元素顶部的位置
+background-color:	背景颜色
+border:				周围加边框：实线边框、凸起边框、虚线边框
+padding:			如果在一个元素边缘和它的内容之间需要有空间，内边距
+font-size:			字体大小
+text-align:			将文本左对齐、居中、或右对齐。
+letter-spacing:		字母之间设置边距
+font-style:			设置斜体
+list-style:			改变列表项列表的外观
+background-image:	背景图片
+*/
+/*未访问的链接*/
+a:link{
+	color:green;
+}
+/*已访问的链接*/
+a.visited{
+	color:red;
+}
+/*悬停*/
+a.hover{
+	color:yellow;
+}
+
+
+
+
+
+

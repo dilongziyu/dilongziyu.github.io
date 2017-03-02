@@ -1,0 +1,28 @@
+body{
+  padding:100px; 
+}
+.backround{
+ background-color: #ee;
+ padding:60px;
+}
+.padd{
+  background-color: #fff;
+  padding-left:1px;
+  padding-right:2px;
+  padding-bottom:5px;
+}
+.tite{
+  padding-top:12px;
+}
+h1{
+  font-size:70px
+}
+.left-padd{
+  padding-top:30px;
+   padding-left:150px;
+  padding-right:80px;
+  
+}
+span{
+  font-weight:bold;
+}

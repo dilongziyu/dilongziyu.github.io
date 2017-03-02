@@ -1,0 +1,141 @@
+/*-----default model-----*/
+body,h1, h2, h3, h4, h5, h6,p,ul, ol, dl, dd,figure, menu, input, textarea, button, select, th, td {margin: 0;padding: 0;}
+h1, h2, h3, h4, h5, h6,b, strong {font-size: 100%;font-weight: normal;}
+li {list-style: none;}
+em, i {font-style: normal;}
+input,textarea,button,select {outline: 0 none;}
+textarea {resize: vertical;}
+input[type="button"],input[type="submit"],input[type="reset"] {-webkit-appearance: none;appearance: none;}
+html,body {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);-webkit-touch-callout: none;-webkit-user-select: none;user-select: none;word-wrap: break-word;}
+a {text-decoration: none;outline: 0 none;}
+
+body{
+    font-family:'Microsoft Yahei', Simsun;
+    width: 1080px;
+}
+
+header{
+    background-color:#22292c;
+    width: 1080px;
+    height: 142px;
+}
+
+.header{
+    height:72px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 72px;
+}
+
+.x{
+    width: 144px;
+    /*height: 72px;*/
+    /*text-align: center;*/
+    /*line-height: 72px;*/
+    margin: 35px 0;
+    border-right: solid 1px #14191a;
+    /*vertical-align: middle;*/
+}
+
+
+.x_img{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.header_word{
+    width: 594px;
+    /*height: 72px;*/
+    color:#fff;
+    /*vertical-align: middle;*/
+    /*text-align: center;*/
+    /*line-height: 72px;*/
+    border-left: solid 1px #14191a;
+    margin: 36px 171px 35px 0;
+    font-size: 49px;
+}
+
+.dian{
+    width: 168px;
+    /*height: 72px;*/
+    /*text-align: center;*/
+    /*line-height: 72px;*/
+    /*vertical-align: middle;*/
+    margin: 35px 0;
+}
+
+
+
+
+nav{
+    width: 1080px;
+    height: 129px;
+    background-color:#efefef;
+    border-bottom:solid 1px #d8d8d8;
+    color: #222;
+}
+
+.lt{
+    width: 95px;
+    height: 130px;
+    text-align: center;
+    line-height: 130px;
+    font-size: 38px ;
+    color: #606060;
+}
+
+
+.nav{
+    width: 892px;
+    height: 129x;
+    background-color: #efefef;
+    text-align: center;
+    line-height: 129px;
+    font-size: 43px;
+}
+
+li{
+    width: 1080px;
+    height: 195px;
+}
+
+.li_picture{
+    width: 284px;
+    height: 195px;
+    display: inline-block;
+    text-align: center;
+    line-height: 195px;
+}
+
+
+.section{
+    width: 753px;
+    height: 194px;
+    line-height: 194px;
+    font-size: 44px;
+    border-bottom:solid 1px #d8d8d8;
+}
+
+.bollstar_img{
+    vertical-align:middle;
+}
+
+.inline_block{
+    display: inline-block;
+}
+
+a:link{
+    color: #222;
+}
+
+a:visited{
+    color: #222;
+}
+
+a:hover{
+    color: #222;
+}
+
+a:active{
+    color: #222;
+}

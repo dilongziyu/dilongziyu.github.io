@@ -1,0 +1,109 @@
+  /*-----default model-----*/
+body,h1, h2, h3, h4, h5, h6,p,ul, ol, dl, dd,figure, menu, input, textarea, button, select, th, td {margin: 0;padding: 0;}
+h1, h2, h3, h4, h5, h6,b, strong {font-size: 100%;font-weight: normal;}
+li {list-style: none;}
+em, i {font-style: normal;}
+input,textarea,button,select {outline: 0 none;}
+textarea {resize: vertical;}
+input[type="button"],input[type="submit"],input[type="reset"] {-webkit-appearance: none;appearance: none;}
+html,body {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);-webkit-touch-callout: none;-webkit-user-select: none;user-select: none;word-wrap: break-word;}
+a {text-decoration: none;outline: 0 none;color:inherit}
+
+body{
+  width: 100%;
+  height: auto;
+  font-family:'Microsoft Yahei', Simsun;
+}
+
+.header{
+  background: #f5f5f5;
+}
+
+.header-main{
+  /*width: 1349px;*/
+  width: 1190px;
+  height: 35px;
+  margin: 0 auto;
+}
+
+.header-main-l{
+  float: left;
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  color: #6c6c6c;
+  line-height: 35px;
+}
+
+.header-main-l__lpg--same{
+  float: left;
+}
+
+.header-main-l__log{
+  width:60px;
+  height: 35px;
+  color: #f22e00;
+  line-height: 36px;
+  margin-right: 7px;
+}
+
+.header-main-l__reg{
+  width: 48px;
+  height: 35px;
+  margin-right: 7px;
+}
+
+.header-main-__pho{
+  width: 60px;
+  height: 35px;
+  margin-left: 12px;
+}
+
+.header-main-r{
+  float: right;
+}
+
+.header-main-r__lpg--same{
+  float: left;
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  color: #6c6c6c;
+  line-height: 35px;
+}
+
+.header-main-r__mytb{
+  width: 79px;
+  height: 35px;
+  padding: 0 6px;
+}
+
+.header-main-r__mytb a{
+  width: 48px;
+  height: 35px;
+}
+
+.header-main-r__btm{
+  background-image: url(../images/header-icon.png);
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-position: 0 -23px;
+}
+
+.header-main-r__shop{
+  width: 84px;
+  height: 35px;
+}
+
+.header-main-r__web a{
+  width: 48px;
+  height: 36px;
+  display: inline-block;
+}
+
+.header-main-r__web{
+  width: 82px;
+  height: 35px;
+  margin-right: 6px;
+}

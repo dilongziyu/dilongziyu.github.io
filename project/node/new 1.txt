@@ -1,0 +1,34 @@
+
+属性顺序
+
+HTML 属性应当按照以下给出的顺序依次排列，确保代码的易读性。
+
+    class
+    id, name
+    data-*
+    src, for, type, href
+    title, alt
+    aria-*, role
+
+class 用于标识高度可复用组件，因此应该排在首位。id 用于标识具体组件，应当谨慎使用（例如，页面内的书签），因此排在第二位。
+
+声明顺序
+
+相关的属性声明应当归为一组，并按照下面的顺序排列：
+
+    Positioning
+    Box model
+    Typographic
+    Visual
+
+由于定位（positioning）可以从正常的文档流中移除元素，并且还能覆盖盒模型（box model）相关的样式，因此排在首位。盒模型排在第二位，因为它决定了组件的尺寸和位置。
+
+其他属性只是影响组件的内部（inside）或者是不影响前两组属性，因此排在后面。
+
+facebook:
+502329474@qq.com
+2872098
+
+google:
+q502329474@gmail.com
+q2872098

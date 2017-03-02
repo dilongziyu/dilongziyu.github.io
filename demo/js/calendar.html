@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>简易日历</title>
+    <style media="screen">
+      .calendar{
+        width: 500px;
+        margin: 0 auto;
+      }
+      ul{
+        width: 420px;
+        font-size: 0;
+      }
+      li{
+        list-style-type: none;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        background: #000;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+      }
+      .text{
+        margin-left: 60px;
+      }
+    </style>
+    <script type="text/javascript">
+      window.onload=function(){
+        var arr=[
+          '23123',
+          '123123',
+          '1ewqeqwe',
+          '22222222',
+          '2223343',
+          'asdasda',
+          'fsaasdas',
+          'fasfzxczxcz',
+          'ewqeqweq',
+          'sdadwdwz',
+          'asdwx',
+          'dasdasxzc',
+        ];
+        var aLi=document.getElementsByTagName('li');
+        var aDiv=document.getElementsByClassName('text')[0];
+
+        // console.log(aDiv.innerHTML);
+
+        for (var i = 0; i < aLi.length; i++) {
+          aLi[i].index=i;
+          aLi[i].onmouseover=function(){
+              aDiv.innerHTML='<h2>'+(this.index+1)+'月活动</h2><p>'+arr[this.index]+'</p>';
+              // console.log(index);
+          }
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <div class="calendar">
+      <ul>
+        <li><h2>1</h2><p>JAN</p></li>
+        <li><h2>2</h2><p>FER</p></li>
+        <li><h2>3</h2><p>MAR</p></li>
+        <li><h2>4</h2><p>APR</p></li>
+        <li><h2>5</h2><p>MAY</p></li>
+        <li><h2>6</h2><p>JUN</p></li>
+        <li><h2>7</h2><p>JUL</p></li>
+        <li><h2>8</h2><p>AUG</p></li>
+        <li><h2>9</h2><p>SEP</p></li>
+        <li><h2>10</h2><p>OCT</p></li>
+        <li><h2>11</h2><p>NOV</p></li>
+        <li><h2>12</h2><p>DEC</p></li>
+      </ul>
+      <div class="text">
+        <h2>1月活动</h2>
+        <p>快过年了，大家别磨叽</p>
+      </div>
+    </div>
+  </body>
+</html>

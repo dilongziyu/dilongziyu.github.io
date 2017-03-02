@@ -1,0 +1,58 @@
+<!-- 此函数中，因为是非行间样式，当定时器display='none'消失时，不需要设定display='block'，因为当定时器停止时，样式恢复为默认的'block'； -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>延时提示框</title>
+    <style media="screen">
+      #div1{
+        width: 80px;
+        height: 20px;
+        border: 1px solid #0f0;
+        margin-right: 20px;
+        float: left;
+      }
+      #div2{
+        width: 100px;
+        height: 100px;
+        border: 1px solid #00f;
+        display: none;
+        float: left;
+      }
+    </style>
+    <script type="text/javascript">
+      window.onload=function(){
+        var oDiv1=document.getElementById('div1');
+        var oDiv2=document.getElementById('div2');
+        var timer=null;
+
+        oDiv2.onmouseover=oDiv1.onmouseover=function(){
+            oDiv2.style.display='block';
+            clearInterval(timer);
+            console.log(1);
+          };
+        oDiv2.onmouseout=oDiv1.onmouseout=function(){
+          timer=setTimeout(function(){
+            oDiv2.style.display='none';
+          },500);
+          console.log(2);
+        };
+        // oDiv2.onmouseover=function(){
+        //   // oDiv2.style.display='block';
+        //   clearInterval(timer);
+        //   console.log(3);
+        // }
+        // oDiv2.onmouseover=function(){
+        //   timer=setTimeout(function(){
+        //     oDiv2.style.display='none';
+        //   },500);
+        //   console.log(4);
+        // }
+      };
+    </script>
+  </head>
+  <body>
+    <div id="div1">2131</div>
+    <div id="div2">asdasd</div>
+  </body>
+</html>

@@ -1,0 +1,429 @@
+﻿/*-----default model-----*/
+body,h1, h2, h3, h4, h5, h6,p,ul, ol, dl, dd,figure, menu, input, textarea, button, select, th, td {margin: 0;padding: 0;}
+h1, h2, h3, h4, h5, h6,b, strong {font-size: 100%;font-weight: normal;}
+li {list-style: none;}
+em, i {font-style: normal;}
+input,textarea,button,select {outline: 0 none;}
+textarea {resize: vertical;}
+input[type="button"],input[type="submit"],input[type="reset"] {-webkit-appearance: none;appearance: none;}
+html,body {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);-webkit-touch-callout: none;-webkit-user-select: none;user-select: none;word-wrap: break-word;}
+a {text-decoration: none;outline: 0 none;color: inherit;}
+
+body{
+  width: 100%;
+  height: auto;
+  font-family:'Microsoft Yahei', Simsun;
+}
+
+.header_background{
+  background-color: #ececec;
+  border-bottom: 1px solid #ccc;
+}
+
+.main_header{
+  width: 1207px;
+  height: 28px;
+  font-size: 14px;
+  color: #7e7e7e;
+  margin: 0 auto;
+}
+
+.header_left{
+  float: left;
+}
+
+.header_right{
+  float: right;
+}
+
+.header_left>div ,.header_right>div{
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: #868686;
+}
+
+.header_welcome{
+  width: 125px;
+  margin-right: 30px;
+}
+
+.header_login{
+  width: 44px;
+  margin-right: 36px;
+}
+
+.header_register{
+  width: 73px;
+  /*margin-right: 483px;*/
+}
+
+.header_guarantee{
+  width: 59px;
+  margin-right: 29px;
+}
+
+.header_find{
+  width: 59px;
+  margin-right: 30px;
+}
+
+.header_collect{
+  width: 59px;
+  margin-right: 30px;
+}
+
+.header_member{
+  width: 59px;
+  margin-right: 30px;
+}
+
+.header_map{
+  width: 59px;
+}
+
+.clear{
+  clear: both;
+}
+.inline_block{
+  display: inline-block;
+  vertical-align: top;
+}
+/*搜索部分*/
+.search_background{
+  background: #fff;
+}
+.search{
+  position: relative;
+  height: 109px;
+  width: 1207px;
+  margin: 0 auto;
+}
+
+.logo_warp{
+  position: absolute;
+  top:28px;
+  left: 0;
+  width: 190px;
+}
+
+.my_input{
+  background: #fff;
+}
+
+.input_main{
+  position: absolute;
+  top: 35px;
+  left: 334px;
+  margin: 0 auto;
+  background: #000;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.input_main>input{
+  width: 328px;
+  height: 28px;
+  padding-left: 5px;
+  border: 2px solid #000;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+
+.input_main>label{
+  background-color: #000;
+  font-size: 21px;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 23px;
+  border: 2px solid #000;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.my_input>.search_word>a{
+  color: #fff;
+}
+
+.mark{
+  position: absolute;
+  width: 383px;
+  font-size: 13px;
+  top: 35px;
+  right: 0;
+  background: #fff;
+}
+
+.authentic{
+  float: left;
+  padding-right: 16px;
+  border-right: 1px solid #d3d3d3;
+}
+
+
+
+.authentic_word>span {
+  color: #111;
+  font-weight: bold;
+}
+.sevenday_word>span{
+  color: #000;
+  font-weight: bold;
+}
+
+.authentic_image{
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 8px;
+}
+
+.authentic_word{
+  color: #666;
+  display: inline-block;
+  vertical-align:top;
+}
+
+.sevenday_word{
+  color: #636363;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sevenday_image{
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+  padding-right: 8px;
+}
+
+.sevenday_image{
+    padding-left: 18px;
+}
+
+
+.category{
+  position: absolute;
+  top: 70px;
+  left: 343px;
+  color: #9e9e9e;
+}
+
+.category>ul{
+    width: 260px;
+}
+
+.my_category>li{
+  float:left;
+  margin-right: 11px;
+  font-size: 13px;
+}
+
+
+
+.nav_center{
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.nav_background{
+  background-color: #151515;
+}
+
+.nav_main{
+  position: relative;
+  width: 1207px;
+  height: 42px;
+
+  color: #fff;
+  font-size: 16px;
+  margin: 0 auto;
+  clear:both;
+}
+
+.art{
+  padding-left: 21px;
+  padding-right: 3px;
+}
+
+.art_icon{
+  padding-right: 61px;
+}
+
+.celebrity{
+  padding-right: 72px;
+}
+
+.exhibition{
+  padding-right: 64px;
+}
+
+.nav_main>.aboutus{
+  padding-right:
+}
+
+.nav_second{
+  position: absolute;
+  right: 0px;
+  top: 0;
+}
+
+.shopping_cart_image{
+  display: inline-block;
+  padding-top: 8px;
+  margin-right: 9px;
+}
+
+
+.shopping_cart_word{
+  line-height: 42px;
+  margin-right: 45px;
+}
+
+.vip_image{
+  margin-top: 8px;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.vip_word{
+  line-height:42px;
+  color: #ffcc00;
+}
+
+.location{
+  width: 215px;
+  height: 55px;
+  color: #333;
+  text-align: center;
+  line-height: 55px;
+}
+
+.web_map{
+  font-size: 22px;
+  color: #333;
+  width: 215px;
+  height: 83px;
+}
+
+.main_content{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.mycontent{
+  width: 1207px;
+  height: 657px;
+  margin: 0 auto;
+}
+
+.main_content>ul>li{
+  text-align: center;
+  color: #666;
+}
+
+
+
+.main_content>ul>li:first-child{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main_content>ul>li{
+  margin-bottom: 21px;
+}
+
+.main_content_navigation{
+  margin: 0 123px 0 24px;
+}
+
+.main_content_sort{
+  margin: 0 125px auto 0;
+}
+.main_content_search{
+  margin: 0 125px auto 0;
+}
+.main_content_member{
+  margin: 0 125px auto 0;
+}
+.main_content_help{
+  margin: 0 125px auto 0;
+}
+
+
+.title>span{
+  font-weight: bold;
+  color: #333;
+}
+
+footer{
+  background-color: #32343a;
+}
+
+.footer_main{
+  width: 1207px;
+  font-size: 14px;
+  color: #858585;
+  margin: 80px auto 20px;
+}
+
+
+.customer_service>.time{
+  color: #5b5b5c;
+}
+
+.footer_ul>li:first-child{
+  color: #ccc;
+  margin-bottom: 22px;
+}
+
+.customer_service>.photonum{
+  font-size: 23px;
+  margin-top: 18px;
+  margin-bottom: 9px;
+  color: #d3d3d3;
+}
+
+.footer_main>.customer_service{
+  margin: 54px 150px auto 0px;
+}
+
+.footer_main>.cooperation{
+  margin-top: 54px;
+  margin-right: 143px;
+}
+
+.footer_main>.sales{
+  margin-top: 54px;
+  margin-right: 110px;
+}
+
+.footer_main>.service{
+  margin-top: 54px;
+  margin-right: 121px;
+}
+
+.footer_main>.media{
+  margin-top: 54px;
+  margin-right: 134px;
+}
+
+.footer_main>.about{
+  margin-top: 54px;
+}
+
+.footer_ul>li{
+  margin-bottom: 21px;
+}
+
+.footer_main>.time{
+  text-align: center;
+  font-size: 10px;
+  color: #4f5052;
+  background-color: #32343a;
+  padding-top:65px;
+  padding-bottom:20px;
+}

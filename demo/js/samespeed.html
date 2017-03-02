@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>运动基础</title>
+    <style media="screen">
+/*-----default model-----*/
+body,h1, h2, h3, h4, h5, h6,p,ul, ol, dl, dd,figure, menu, input, textarea, button, select, th, td {margin: 0;padding: 0;}
+h1, h2, h3, h4, h5, h6,b, strong {font-size: 100%;font-weight: normal;}
+li {list-style: none;}
+em, i {font-style: normal;}
+input,textarea,button,select {outline: 0 none;}
+textarea {resize: vertical;}
+input[type="button"],input[type="submit"],input[type="reset"] {-webkit-appearance: none;appearance: none;}
+html,body {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);-webkit-touch-callout: none;-webkit-user-select: none;user-select: none;word-wrap: break-word;}
+a {text-decoration: none;outline: 0 none;color:inherit}
+
+    #div1{
+      width: 100px;
+      height: 100px;
+      /*border: 1px solid #0f0;*/
+      background: yellow;
+      position: absolute;
+      left: -300px;;
+      top: 50px;
+    }
+    </style>
+    <script>
+      window.onload=function(){
+        var oDiv=document.getElementById('div1');
+        var oBtn=document.getElementsByTagName('input')[0];
+
+        // oBtn.onclick=function(){
+        //   setInterval(function () {
+        //     oDiv.style.left=oDiv.offsetLeft+10+'px';
+        //   }, 10);
+        // }
+
+      var speed=null;
+
+      oBtn.onmouseover=function(){
+        startMove(0);
+      }
+
+
+      oBtn.onmouseout=function(){
+        startMove(-300);
+      }
+};
+var timer=null;
+function startMove(target){
+  var oDiv=document.getElementById('div1');
+  if (oDiv.offsetLeft>target) {
+    speed = -10;
+  }else {
+    speed = 10;
+  };
+    clearInterval(timer);
+    timer=setInterval(function(){
+      if (oDiv.offsetLeft==target) {
+          clearInterval(timer);
+      }else{
+        var oTitle=document.getElementsByTagName('title')[0];
+        oDiv.style.left=oDiv.offsetLeft+speed+'px';
+        oTitle.innerHTML=oDiv.offsetLeft;
+      }
+
+    },30)
+  }
+
+
+function stopMove(){
+  clearInterval(timer);
+}
+
+
+    </script>
+  </head>
+  <body>
+    <div id='div1'>a</div>
+    <input type="button" name="" value="开始">
+  </body>
+</html>

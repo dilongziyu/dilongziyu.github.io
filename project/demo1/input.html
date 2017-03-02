@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>订单</title>
+		<link type="text/css" rel="stylesheet" href="input.css">
+		<link type = "text/css" rel = "stylesheet" href = "style.css">
+	</head>
+	<body>
+		<p>
+			<h1>注册</h1>
+			<h2>填写信息：</h2>
+		</p>
+		<form action="http://starbuzzcoffee.com/processorder.php" method="POST">
+			<div class="tableRow">
+			<p class="heading">Ship to </p>
+			<p></p>
+			</div>
+			<div class="tableRow">
+				<p>基本信息</p>
+				<p></p>
+			<fieldset>
+				<p>
+					姓名：<input type="text" name="name" value=""><br>
+					性别：
+					男：<input type="radio" name="hotornot" value="man" id="man">
+					<label>man</label>
+					女：<input type="radio"	name="hotornot" value="woman" id="woman">
+					<label>woman</label><br>
+					邮编：<input type="text" name="youbian" value=""><br>
+					电话：<input type="tel" name="telephone" value=""><br>
+					年龄：<input type="number" min="20" max="100"><br>				
+					邮箱：<input type="email"><br>
+				</p>
+			</fieldset>
+			</div>
+			<div class="tableRow">
+			<p>账号</p>
+			<p></p>
+			<fieldset>
+				<p>
+					账号：<input type="text" name="username" value="" placeholder="username" required>
+					密码：<input type="password" name="secret" placeholder="password" required>
+					打开：<input type="file" name="doc">
+				</p>
+			</fieldset>
+			</div>
+			<div class="tableRow">
+				<p>地址</p>
+				<p></p>
+			<fieldset>
+				<p>
+					<input type="text" name="sheng" value="">省<br>
+					<input type="text" name="shi" value="">市<br>
+					<input type="text" name="xian" value="">县<br>
+				</p>
+			</fieldset>
+			</div>
+			<div class="tableRow">
+				<p>爱好：</p>
+				<p></p>
+			<fieldset>
+				<p>
+					<input type="checkbox" name="extras[]" value="羽毛球">羽毛球
+					<input type="checkbox" name="extras[]" value="篮球">篮球
+					<input type="checkbox" name="extras[]" value="足球" checked>足球<br>
+				</p>
+			</fieldset>
+			</div>
+			<div class="tableRow">
+				<p>	系别：</p>
+				<p></p>
+			<fieldset>
+				<p>	<select name="zhuanye" multiple>
+						<option value="1">请选择</option>
+						<option value="2">自动化</option>
+						<option value="3">机械</option>
+						<option value="4">通信</option>
+						<option value="5">化工</option>
+					</select><br>
+				</p>
+			</fieldset>
+			</div>
+			<div class="tableRow">
+				<p>	选单：</p>
+				<p></p>
+			<fieldset>
+				<p>
+					大小：<input type="range" min="0" max="20" step="5"><br>
+					选择颜色：<input type="color"><br>
+					预定时间：<input type="time"><br>
+					Date<input type="date" name="date"><br>
+					URL<input type="url"><br>
+				</p>
+			</fieldset>
+			</div>
+			<div class="tableRow">
+				<p>评论：</p>
+				<p></p>
+				<p>
+					<textarea name="comments"></textarea><br>
+					<input type="submit" value="提交">
+				</p>
+			</div>
+		</form>
+	</body>
+</html>

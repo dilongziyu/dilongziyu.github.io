@@ -1,0 +1,188 @@
+<!--
+          1.表单操作
+                  1.隔行变色
+                  2.鼠标移入高亮
+                  3.添加表单
+                  4.删除当前元素
+          2.0搜索
+                  2.1 字符串比较
+                  2.2 忽略大小写
+                  2.3 模糊搜索
+                  2.4 多关键词
+                  2.5 高亮筛选
+                  3.0 排序
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>表单操作</title>
+    <style media="screen">
+      /*-----default model-----*/
+      body,h1, h2, h3, h4, h5, h6,p,ul, ol, dl, dd,figure, menu, input, textarea, button, select, th, td {margin: 0;padding: 0;}
+      h1, h2, h3, h4, h5, h6,b, strong {font-size: 100%;font-weight: normal;}
+      li {list-style: none;}
+      em, i {font-style: normal;}
+      input,textarea,button,select {outline: 0 none;}
+      textarea {resize: vertical;}
+      input[type="button"],input[type="submit"],input[type="reset"] {-webkit-appearance: none;appearance: none;}
+      html,body {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);-webkit-touch-callout: none;-webkit-user-select: none;user-select: none;word-wrap: break-word;}
+      a {text-decoration: none;outline: 0 none;color:inherit}
+      table{
+        width: 400px;
+        height: 200px;
+        text-align: center;
+        border-collapse:collapse;
+      }
+      th{
+        border: 1px solid #f00;
+      }
+      td{
+        border: 1px solid #f00;
+      }
+
+    </style>
+    <script type="text/javascript">
+      window.onload=function(){
+        var oTab=document.getElementsByTagName('table')[0];
+        var oText1=document.getElementById('text1');
+        var oText2=document.getElementById('text2');
+        var oTr=oTab.tBodies[0].rows;
+        var oldcolor='';
+//隔行变色  鼠标移入高亮
+        for (var i = 0; i < oTab.tBodies[0].rows.length; i++) {
+          oTr[i].onmouseover=function(){
+            oldcolor=this.style.background;
+            this.style.background='red';
+          };
+          oTr[i].onmouseout=function(){
+            this.style.background=oldcolor;
+          };
+          if(i%2==0){
+            oTab.tBodies[0].rows[i].style.background='#0f0';
+          }else{
+          oTab.tBodies[0].rows[i].style.background='oldcolor';
+          };
+        };
+//----------------------------添加-----------------------------------
+        var oBtn1=document.getElementsByTagName('input')[2];
+        var i=oTr.length+1;
+
+        oBtn1.onclick=function(){
+              i=i+1;
+          var oTr2=document.createElement('tr');
+
+          var oTd=document.createElement('td');
+          oTd.innerHTML=i;
+          oTr2.appendChild(oTd);
+
+          var oTd=document.createElement('td');
+          oTd.innerHTML=oText1.value;
+          oTr2.appendChild(oTd);
+
+          var oTd=document.createElement('td');
+          oTd.innerHTML=oText2.value;
+          oTr2.appendChild(oTd);
+//---------------------删除-------------------
+          var oTd=document.createElement('td');
+          oTd.innerHTML='<a href="javascript:void(0)">删除</a>';//当href值为'' 直接消失
+          oTr2.appendChild(oTd);
+
+          oTd.getElementsByTagName('a')[0].onclick=function(){
+            oTab.tBodies[0].removeChild(this.parentNode.parentNode);
+          }
+          oTab.tBodies[0].appendChild(oTr2);
+        }
+//--------------------------字符串比较-------------------
+        var oBtn=document.getElementById('btn3');
+        var oText3=document.getElementById('text3');
+
+
+//逻辑得对  思路得清晰  位置不对就出错
+        oBtn.onclick=function(){
+            for (var j = 0; j < oTab.tBodies[0].rows.length; j++) {
+            var base=oTab.tBodies[0].rows[j].cells[1].innerHTML.toLowerCase();
+            var now = oText3.value.toLowerCase().split('');
+            oTab.tBodies[0].rows[j].style.display=' ';
+            for (var i = 0; i < now.length; i++){
+
+            if (base.search(now[i])!=-1) {
+              oTab.tBodies[0].rows[j].style.background='yellow';
+          //     console.log(base.search(now[i]));
+              }
+            }
+
+
+
+          // for (var i = 0; i < arr2.length; i++) {
+            // console.log(arr.search(arr2.split(' ')));
+          // var arr3=arr.split(" ");
+            // console.log("hello".split(""));
+          // }
+
+
+          // for (var i = 0; i < oTab.tBodies[0].rows.length; i++) {
+          //   base=oTab.tBodies[0].rows[i].cells[1].innerHTML.toLowerCase();
+            // if(base==now){
+            //   oTab.tBodies[0].rows[i].style.display='block';
+            // }else{
+            //   oTab.tBodies[0].rows[i].style.display='none';
+            // }
+            // if (base.search(now) != -1) {
+            //   oTab.tBodies[0].rows[i].style.display='block';
+            // }else{
+            //   oTab.tBodies[0].rows[i].style.display='none';
+            // }
+
+          // }
+        };
+      };
+    }
+    </script>
+  </head>
+  <body>
+    <label for="text1">姓名:</label>
+    <input type="text" id="text1">
+    <label for="text2">分数:</label>
+    <input type="text" id="text2">
+    <input type="button" name="" value="添加">
+    <label for="">姓名</label><input type="text" name="" value="" id="text3">
+    <input type="button" name="" value="查找" id="btn3">
+    <table>
+      <thead>
+        <tr>
+          <th>num</th>
+          <th>name</th>
+          <th>scrod</th>
+          <th>备注</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>张三</td>
+          <td>12</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>李四</td>
+          <td>9</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>blue</td>
+          <td>42</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>麻子</td>
+          <td>24</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
