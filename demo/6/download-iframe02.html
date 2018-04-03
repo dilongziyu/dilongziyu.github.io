@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>一级建造师-资料下载-优路教育</title>
+  <link rel="stylesheet" href="./css/style.css" media="screen" title="no title">
+
+</head>
+<body>
+  <form class="download-form" id="feedBackForm">
+    <input id="CampaigeId" type="hidden" name="CampaigeId" value="4742"/>
+    <input id="PageSource" type="hidden" name="PageSource" maxlength="180" value="历年真题打包下载03"/>
+
+    <h2>历年真题<br />打包下载</h2>
+    <label for="UserName">
+      <img src="./images/video-icon01.png" alt="">
+      <p>姓名</p>
+    </label>
+    <input id="UserName" type="text" name="UserName" maxlength="180">
+    <label for="UserPhone">
+      <img src="./images/video-icon02.png" alt="">
+      <p>手机号</p>
+    </label>
+    <input id="UserPhone" type="text" name="UserPhone" maxlength="11">
+    <a href="javascript:void(0);" onclick="FormSubmit3('./zl/3.zip',2)" id="submit">打包下载</a>
+  </form>
+
+  <script src="../../Scripts/Jquery/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    function formCheck() {
+     if (!$("#UserPhone").val().match(/^1[3|4|5|8|7][0-9]\d{8}$/)) {
+      /*验证手机号格式*/
+      $("#UserPhone").focus();
+      alert("手机号不正确!");
+      return false;
+    }
+    else {
+      return true;
+    }
+    }
+    </script>
+</body>
+</html>

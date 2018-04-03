@@ -1,0 +1,1072 @@
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, figure, menu, input, textarea, button, select, th, td iframe{ margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6, b, strong { font-size:100%; font-weight:normal;}
+li { list-style:none;}
+em, i { font-style:normal;}
+a, a:visited, a:active { text-decoration:none; border:none; outline:none; color: #333;}
+a img { display:block; border:none;}
+input, textarea { outline:none;}
+textarea { resize: vertical;}
+body { -webkit-text-size-adjust:100%; -webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-touch-callout:none; word-wrap:break-word; line-height:1.5;font-size: 12px;}
+body, button, input, select, textarea { font-family: 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei', 'microsoft yahei', simsun, sans-serif;}
+.none{ display:none;}
+.left { float:left;}
+.right { float:right;}
+.clearfix::after { content:''; clear:both; display:block; height:0; overflow:hidden;visibility:hidden;}
+.clearfix { zoom:1;}
+.ellipsis { overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+
+.cont{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header-bgd{
+  background: #fff;
+}
+.header{
+  padding: 10px 0;
+  font-size: 0;
+  text-align: center;
+}
+.header img{
+  display: inline-block;
+  vertical-align: top;
+  width: 223px;
+  height: 90px;
+}
+.header h1{
+  display: inline-block;
+  vertical-align: top;
+  line-height: 90px;
+  font-size: 34px;
+  color: #333;
+  font-weight: 600;
+  margin: 0 110px;
+}
+
+/*2018年注册消防工程师各省报考条件查询系统*/
+.navagation-bgd{
+  background: #333;
+}
+.navagation{
+  font-size: 0;
+  text-align: center;
+}
+.navagation__list{
+  display: inline-block;
+  vertical-align: top;
+}
+.navagation__list a{
+  display: block;
+  line-height: 50px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.bktj-bgd{
+  background: #fff;
+}
+.bktj{
+  padding: 20px 0;
+  font-size: 0;
+  text-align: center;
+}
+.bktj-l{
+  width: 266px;
+  display: inline-block;
+  vertical-align: top;
+}
+.bktj-l>a{
+  width: 266px;
+  height: 188px;
+  display: block;
+  margin: 0 auto 20px;
+}
+.bktj-l img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.bktj-l__content{
+  padding: 16px 0;
+  width: 266px;
+  text-align: center;
+  border: 1px solid #d2d0d0;
+}
+.bktj-l__content h2{
+  font-size: 14px;
+  color: #c00000;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #c8c8c8;
+  margin: 0 5px 14px;
+}
+.bktj-l__list{
+  text-align: left;
+  margin: 0 auto 10px;
+}
+.bktj-l__list a{
+  display: block;
+}
+.bktj-l__list a:hover p{
+  color: red;
+}
+.bktj-l__list span{
+  display: inline-block;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+  font-size: 13px;
+  color: #fbf4f4;
+  text-align: center;
+  line-height: 22px;
+  background: #c00000;
+  position: relative;
+  margin: 0 15px 0 10px;
+}
+.bktj-l__list span:after{
+  width: 0;
+  height: 0;
+  content: '';
+  position: absolute;
+  top: 6px;
+  right: -8px;
+  border-top: 4px solid transparent;
+  border-left: 8px solid #c00000;
+  border-bottom: 4px solid transparent;
+}
+.bktj-l__list p{
+  display: inline-block;
+  vertical-align: middle;
+  width: 210px;
+  font-size: 13px;
+  color: #333;
+  text-align: left;
+}
+.bktj-c{
+  display: inline-block;
+  vertical-align: top;
+  width: 370px;
+  margin: 0 5px;
+}
+.bktj-c h2{
+  font-size: 22px;
+  color: #c00000;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 0 15px 0;
+}
+.bktj-c h3{
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.bktj-c__list{
+  display: inline-block;
+  vertical-align: top;
+}
+.bktj-c__list a{
+  display: block;
+  width: 63px;
+  height: 30px;
+  font-size: 14px;
+  color: #5d5d5d;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #999;
+  margin: 0 4px 10px;
+}
+.bktj-c__list a:hover{
+  width: 65px;
+  height: 32px;
+  line-height: 32px;
+  background: #d2d0d0;
+  border: none;
+}
+.bktj-c .bktj-c__link{
+  display: inline-block;
+  vertical-align: top;
+  width: 156px;
+  height: 42px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 42px;
+  background: #ee3232;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+.bktj-c .bktj-c__link:hover{
+  background: #f5a924;
+}
+.bktj-r{
+  display: inline-block;
+  vertical-align: top;
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+}
+.bktj-r h2{
+  font-size: 30px;
+  color: #c00000;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+.bktj-r h3{
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.bktj-r__list{
+  width: 330px;
+  margin: 0 auto 6px;
+  border: 1px solid #999;
+}
+.bktj-r__list p{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 240px;
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+  padding: 0 5px;
+  text-align: left;
+}
+.bktj-r__list p span{
+  font-weight: 600;
+}
+.bktj-r__list a{
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 65px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background: #f5a924;
+  margin: 5px 0;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+.bktj-r__list a:hover{
+  background: #c00000;
+  color: #fff;
+}
+.bktj-r .bktj-r__link{
+  display: block;
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  margin: 10px auto;
+  background: #ee3232;
+  border-radius: 5px;
+}
+.bktj-r .bktj-r__link:hover{
+  background: #f5a924;
+}
+
+.process-bgd{
+  width: 100%;
+  background: url('../images/process__bgd.jpg') no-repeat center;
+  margin: 0 auto;
+}
+.process{
+  font-size: 0;
+  text-align: center;
+  padding: 20px 0;
+}
+.process h2{
+  font-size: 46px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.process h2 span{
+  color: #c00000;
+}
+.process__list{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 27px 20px;
+}
+.process__list a{
+  box-sizing: border-box;
+  display: block;
+  width: 112px;
+  height: 112px;
+  font-size: 38px;
+  color: #fff;
+  line-height: 35px;
+  padding: 25px 0;
+  text-align: center;
+  background: #a40035;
+  border-radius: 56px;
+  box-shadow:
+        0 0 0 5px #fff,
+        0 0 0 6px #a40035;
+}
+.process__list a i{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 35px;
+  color: #fff;
+  transform: rotate(90deg);
+}
+.process__link{
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 13px;
+}
+.process__link a{
+  display: block;
+  width: 138px;
+  height: 38px;
+  font-size: 16px;
+  color: #a40035;
+  text-align: center;
+  line-height: 38px;
+  border: 1px solid #a40035;
+  background: #fff;
+}
+.process__link a:hover{
+  color: #fff;
+  background: #a40035;
+}
+
+.interpretation-bgd{
+  background: #fff;
+}
+.interpretation{
+  padding: 20px 0;
+  font-size: 0;
+  text-align: center;
+}
+.interpretation h2{
+  font-size: 46px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.interpretation h2 span{
+  color: #1c82c4;
+}
+.interpretation__list{
+  display: inline-block;
+  vertical-align: top;
+  width: 242px;
+  height: 288px;
+  position: relative;
+  margin: 0 4px;
+}
+.interpretation__list:nth-of-type(1){
+  background: url('../images/interpretation__list--img01.jpg') no-repeat center;
+  background-size: cover;
+}
+.interpretation__list:nth-of-type(2){
+  background: url('../images/interpretation__list--img02.jpg') no-repeat center;
+  background-size: cover;
+}
+.interpretation__list:nth-of-type(3){
+  background: url('../images/interpretation__list--img03.jpg') no-repeat center;
+  background-size: cover;
+}
+.interpretation__list:nth-of-type(4){
+  background: url('../images/interpretation__list--img04.jpg') no-repeat center;
+  background-size: cover;
+}
+.interpretation__list--center{
+  position:absolute;
+  top:50%;
+  left:50%;
+  -webkit-transform:translate(-50%,-50%);
+}
+.interpretation__list h3{
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.interpretation__list p{
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.interpretation__list a{
+  display: block;
+  width: 144px;
+  height: 38px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 38px;
+  border: 1px solid #fff;
+  margin: 0 auto;
+}
+
+.system-bgd{
+  background: #fff;
+}
+.system{
+  padding: 20px 0;
+  font-size: 0;
+  text-align: center;
+}
+.system h2{
+  font-size: 46px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.system h2 span{
+  color: #c00000;
+}
+.system h3{
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.system h3 span{
+  color: #c00000;
+}
+.system input{
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  height: 60px;
+  border: 1px solid #c00000;
+  margin: 0 5px 10px;
+  padding: 0 10px;
+}
+.system select{
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  height: 60px;
+  border: 1px solid #c00000;
+  margin: 0 5px 10px;
+  padding: 0 10px;
+}
+.system a{
+  display: block;
+  width: 267px;
+  height: 48px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  line-height: 48px;
+  margin: 0 auto;
+  background: #ee3232;
+}
+
+/*2018注册消防工程师报名时间及报名入口公布提醒系统*/
+.entrance-bgd{
+  background: #f9f9f9;
+}
+.entrance{
+  padding: 20px 0;
+  font-size: 0;
+  text-align: center;
+}
+.entrance h2{
+  font-size: 46px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.entrance h2 span{
+  color: #c00000;
+}
+.entrance h3{
+  font-size: 16px;
+  color: #c00000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.entrance ul{
+  margin-bottom: 40px;
+}
+.entrance__list{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 1px 1px 0;
+}
+.entrance__list a{
+  display: block;
+  width: 70px;
+  height: 34px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 34px;
+  background: #c00000;
+}
+.entrance__list a:hover{
+  color: #c00000;
+  background: #fed612;
+}
+.entrance iframe{
+  height: 48px;
+  display: block;
+}
+.entrance-form{
+  font-size: 0;
+  text-align: center;
+}
+.entrance-form input{
+  display: inline-block;
+  vertical-align: top;
+  width: 336px;
+  height: 46px;
+  border: 1px solid #ea890a;
+  border-right: none;
+  padding: 0 10px;
+}
+.entrance-form a{
+  display: inline-block;
+  vertical-align: top;
+  width: 268px;
+  height: 48px;
+  font-size: 20px;
+  color: #c00000;
+  font-weight: 600;
+  text-align: center;
+  line-height: 48px;
+  background: #fed612;
+}
+/*2018注册消防工程师考试相关安排  查询专区*/
+.search-bgd{
+  background: #efede8;
+}
+.search{
+  padding: 20px 0;
+}
+.search h2{
+  font-size: 46px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.search h3{
+  width: 835px;
+  height: 30px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  background: url('../images/search__title--img.png') no-repeat center;
+  background-size: contain;
+  margin: 0 auto 48px;
+}
+.search h3 span{
+  color: #c00000;
+  font-weight: 600;
+}
+.search table{
+  width: 1000px;
+  margin: 0 auto 50px;
+  border-bottom: 1px solid #909090;
+}
+.search th{
+  height: 38px;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  text-align: center;
+  border-right: 1px solid #fff;
+}
+.search td{
+  height: 40px;
+  font-size: 18px;
+  color: #333;
+  background: #eee;
+  padding: 0 10px;
+  text-align: center;
+  border-right: 1px solid #909090;
+}
+.search td a{
+  display: block;
+}
+.search td a:hover{
+  color: red;
+  font-weight: 600;
+}
+.search td:first-of-type{
+  color: #fff;
+  background: #c00000;
+}
+.search h4{
+  box-sizing: border-box;
+  width: 689px;
+  height: 54px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  background: url('../images/search__title--img02.png') no-repeat center;
+  background-size: contain;
+  margin: 0 auto 50px;
+  padding: 0 10px;
+}
+.search img{
+  display: block;
+  width: 1000px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+/*根据考生的实际学习时间与基础情况,定制备考计划!*/
+.plan-bgd{
+  background: #fff;
+}
+.plan{
+  padding: 20px 0;
+}
+.plan h2{
+  font-size: 44px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.plan h2 span{
+  color: #c00000;
+}
+.plan iframe{
+  display: block;
+  height: 150px;
+}
+.plan-form{
+  font-size: 0;
+  text-align: center;
+}
+.plan-form select{
+  display: inline-block;
+  vertical-align: top;
+  width: 217px;
+  height: 60px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 10px;
+  margin: 0 5px 40px;
+  border: 1px solid #c00000;
+}
+.plan-form input{
+  display: inline-block;
+  vertical-align: top;
+  width: 217px;
+  height: 60px;
+  padding: 0 10px;
+  margin: 0 5px 40px;
+  border: 1px solid #c00000;
+}
+.plan-form a{
+  display: block;
+  width: 267px;
+  height: 48px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  line-height: 48px;
+  background: #ee3232;
+  margin: 0 auto;
+}
+/*2018注册消防工程师热门课程  试听专区*/
+.course-bgd{
+  background: #fff;
+}
+.course{
+  font-size: 0;
+  text-align: center;
+  padding: 20px 0;
+}
+.course h2{
+  font-size: 46px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.course h2 span{
+  color: #c00000;
+}
+.course-img{
+  display: inline-block;
+  vertical-align: top;
+}
+.course-img img{
+  display: block;
+  width: 631px;
+  height: 284px;
+}
+.course-r{
+  display: inline-block;
+  vertical-align: top;
+  width: 357px;
+  border: 1px solid #dfdfdf;
+  padding: 5px 0;
+  margin: 0 5px 40px;
+}
+.course-r h3{
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  font-weight: 600;
+  margin: 0 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.course-r h3 span{
+  color: #c00000;
+}
+.course-r p:first-of-type{
+  font-size: 16px;
+  color: #333;
+  padding: 5px 5px;
+  margin: 0 5px 5px;
+  text-align: center;
+  border-bottom: 1px solid #dfdfdf;
+}
+.course-r p:nth-of-type(2){
+  color: #333;
+  font-size: 16px;
+}
+.course-r p:nth-of-type(2) i{
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  background: #c00000;
+}
+.course-r p:nth-of-type(2) span{
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 110px;
+  font-size: 16px;
+  color: #c94242;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 2px;
+}
+.course-r p:last-of-type{
+  color: #333;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 18px;
+  margin-bottom: 5px;
+}
+.course-r p:last-of-type span{
+  color: #c94242;
+  font-weight: 600;
+}
+.course-r a{
+  display: block;
+  width: 330px;
+  height: 40px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  line-height: 40px;
+  margin: 0 auto;
+  background: #ee3232;
+}
+.course__list{
+  display: inline-block;
+  vertical-align: top;
+  width: 233px;
+  border: 1px solid #c8c8c8;
+  padding-bottom: 10px;
+  margin: 0 7px;
+}
+.course__list img{
+  display: block;
+  width: 233px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.course__list p{
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+.course__list p a{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  background: #ee3232;
+  line-height: 30px;
+  padding: 0 10px;
+  border-radius: 3px;
+  margin: 0 10px;
+}
+/*2018注册消防工程师备考资料 下载专区*/
+.download-bgd{
+  background: #f9f0f0;
+}
+.download{
+  padding: 20px 0;
+  font-size: 0;
+  text-align: center;
+}
+.download h2{
+  font-size: 46px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.download h3{
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.download-content{
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+}
+.download-content h4{
+  font-size: 30px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.download__list{
+  width: 490px;
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 10px 0;
+}
+.download__list-l{
+  display: inline-block;
+  vertical-align: top;
+  width: 380px;
+}
+.download__list-l h5{
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.download__list-l p{
+  color: #333;
+  font-size: 14px;
+}
+.download__list-l p span{
+  color: #c00000;
+}
+.download__list a{
+  display: inline-block;
+  vertical-align: top;
+  width: 92px;
+  height: 42px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  line-height: 42px;
+  margin: 5px 5px;
+  background: #c00000;
+  border-radius: 3px;
+}
+.download__list:hover{
+  background: #c00000;
+  box-shadow: 2px 2px 2px #c3a6a6;
+}
+.download__list:hover h5{
+  color: #fff;
+}
+.download__list:hover p{
+  color: #fff;
+}
+.download__list:hover p span{
+  color: #e39c07;
+}
+.download__list:hover a{
+  background: #ff9d1d;
+  color: #fff;
+}
+
+/*面对海量题库不知从何入手？想快速找到自己需要的学习资料？*/
+.study-bgd{
+  background: #fff;
+}
+.study{
+  padding: 20px 0;
+  text-align: center;
+}
+.study h2{
+  font-size: 30px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.study h3{
+  font-size: 30px;
+  color: #c00000;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.study iframe{
+  display: block;
+  height: 300px;
+  box-shadow:
+  2px 2px 5px #bab9b9,
+  -2px -2px 5px #bab9b9;
+}
+.study-form{
+  padding: 10px 0 40px;
+  font-size: 0;
+  margin: 0 auto;
+}
+.study-form h2{
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  line-height: 40px;
+  background: #d2d2d2;
+  margin: 0 0 20px 10px;
+}
+.study-form ul{
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+.study-form__list{
+  display: inline-block;
+  vertical-align: top;
+}
+.study-form__list input[type="radio"]{
+  display: none;
+}
+.study-form__list label{
+  display: block;
+  font-size: 18px;
+  clear: #333;
+  padding: 0 20px;
+  background: url('../images/radio.png') no-repeat left center;
+  margin: 0 10px;
+}
+.study-form__list input[type="radio"]:checked ~ label{
+  background-image: url('../images/radio__check.png');
+}
+.study-form input[type="text"]{
+  display: inline-block;
+  vertical-align: top;
+  width: 287px;
+  height: 60px;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  padding: 0 10px;
+  margin: 0 12px 36px;
+  border: 1px solid #c00000;
+}
+.study-form a{
+  display: block;
+  width: 270px;
+  height: 50px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  background: #ee3232;
+  margin: 0 auto;
+}
+
+
+/*二级页*/
+.ej_bck{
+  background: linear-gradient(to bottom, #4795d3 0,#7db3df 10%,#fff 50%,#fff 100%);
+  /*background:url("../images/ej_bck.jpg") repeat-x;*/
+  padding:15px 0;
+  text-align:center;
+}
+.ej_bck > h2{margin-top:20px;font-size:36px;color:#007cd5; font-weight: 600;text-shadow:2px 2px #fff;}
+.ej_bck > p{font-size:14px;color:#1c81dd;margin:10px 0 30px;}
+.ej_bck > div{width:920px;padding:30px 0;border:2px solid #c63031;margin:auto;background:#fff;}
+.ej_bck > div > p{font-size:34px;margin-bottom:30px;}
+.ej_tbl{border:2px solid #ecac86;width:800px;margin:auto;}
+.ej_tbl tr{background:#ffebd2;}
+.ej_tbl td{border-right:1px solid #ecac86;border-bottom:1px solid #ecac86;font-size:18px;padding:18px;}
+.ej_tbl td > input{width:222px;height:30px;padding:0 4px;font-size:14px;line-height:30px;border:1px solid #bfb7ac;}
+.ej_tbl td > select{width:232px;height:32px;font-size:14px;line-height:32px;border:1px solid #bfb7ac;}
+.ej_tbl .ej_tr{background:#fff;}
+.ej_td{text-align:left;}
+.ej_tbl td .nanniu_bj{width:120px;background:#f1f1f1;}
+
+/*bmrk*/
+.bmrk{ position:relative;
+  width: 1024px;
+  height: 477px;
+  margin: 0 auto;
+  background: url('../images/login0.jpg') no-repeat  center;
+}
+
+
+/* 一年过消防 你只需要跟着优路教育 */
+.con10_bck{background:#f1f1f1;}
+.con10_bx{background:#f1f1f1;}
+.con10_bx > h2{color:#fb5246;}
+.con10_bx > p{font-weight:bold;}
+.con10_bx > ul{width:954px;margin:auto;overflow:hidden;padding:25px 0;}
+.con10_bx > ul > li{float:left;width:214px;margin:0 12px;position:relative;text-align:center;}
+.con10_bx > ul > li > h3{position:absolute;top:0;left:0;width:100%;font-size:24px;color:#fff;line-height:187px;}
+.con10_bx > ul > li > div{width:214px;height:40px;font-size:14px;color:#fff;line-height:40px;font-weight:bold;background:#0c0c0c;}
+.con10_dv{width:800px;height:48px;overflow:hidden;text-align:center;padding-top:25px;margin:auto;}
+.con10_dv > a{float:left;font-size:20px;color:#fff;width:206px;height:44px;background:#fb5246;border-radius:10px;margin-left:128px;line-height:44px;border-bottom:4px solid #b31818;}
+
+
+.The_total{width:100%;}
+.The_total > h2{font-size:30px;text-align:center;padding:30px 0 20px;position:relative;margin-bottom:4px;}
+.The_total > h2 > span{position:absolute;bottom:-5px;left:50%;width:152px;height:9px;margin-left:-76px;}
+.dv_box{width:1100px;padding:40px 0;margin:0 auto;overflow:hidden;}
+.dv_box > h2{font-size:36px;color:#ff4029;text-align:center;}
+.dv_box > p{font-size:18px;text-align:center;}
+.The_total1000{width:1000px; margin:auto;font-family:"微软雅黑"; }
+.dv_bx{ width:1100px; margin:auto; text-align:center;padding: 40px 0px;}
+/* 与实战师资齐头并进，有实料 */
+.con11_h2{color:#222;border-bottom:1px solid #d2d2d2;}
+.con11_h2 > span{background:#222;}
+.con11_bx{text-align:center;padding:20px 0 40px;}
+.con11_bx > p{margin-bottom:25px;}
+.con11_bx > ul{width:954px;margin:auto;overflow:hidden;}
+.con11_bx > ul > li{float:left;width:214px;margin:0 12px;text-align:center;}
+.con11_bx > ul > li > h3{font-size:14px;color:#fff;line-height:50px;background:#ff771c;}
+.con11_bx > ul > li > h3 > span{font-size:18px;}
+.con11_bx > ul > li > div{width:214px;height:30px;background:#0c0c0c;padding:6px 0;}
+.con11_bx > ul > li > div > a{float:left;width:106px;font-size:16px;font-weight:bold;color:#ffb21c;line-height:30px;border-right:1px solid #fff;}
+.con11_bx > ul > li > div .con11_a{border-right:0;}

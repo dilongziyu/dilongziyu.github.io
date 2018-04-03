@@ -1,0 +1,95 @@
+
+body{ margin:0px; font-family:"微软雅黑"}
+
+a{ text-decoration:none;}
+a:hover{ text-decoration:none; color:#FF0000;}
+.font_cl {
+	font-size: 13px;
+	line-height: 2.0em;
+	color: #000000;
+	text-decoration: none;
+}
+
+table,td,tr{border-collapse:collapse;}
+#cxtable{border-collapse:collapse; border:1px #CCCCCC solid;}
+#cxtable td{border-collapse:collapse; border:1px #F2F2F2 solid;padding:3px;}
+
+.header {
+height: 75px;
+line-height:75px;
+padding:3px 6px;
+width: 100%;
+background: #fff;
+border-bottom: 1px solid #e3e3e3;
+box-shadow: 0 0 2px #E3E3E3;
+}
+
+.btn-orange {
+background-color: #FF6633;
+color: #fff;
+}
+.btn-orange:hover{background-color: #FF9900 ;color: #fff;
+}
+
+.title{
+  font-size: 38px;
+  color: #312e2e;
+  text-align: center;
+  width: 1000px;
+  margin: 37px auto 27PX auto;
+}
+
+.center{
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 73px;
+}
+
+.title01{
+  font-size: 16px;
+  color: #da0000;
+  width: 445px;
+  text-align: center;
+}
+
+.title01:before{
+  width: 130px;
+  height: 23px;
+  content: '公告：';
+	text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 145px;
+  margin-top: -11px;
+  background: url('../images/laba.png') no-repeat center;
+}
+
+.title02{
+  width: 1000px;
+  font-size: 22px;
+  color: #b50000;
+  margin: 0 auto 19px auto;
+  padding-left: 97px;
+}
+
+.btn-mid {
+height: 36px;
+line-height: 36px;
+font-size: 16px;
+font-family: "Microsoft Yahei";
+}
+
+.btn-mid, .btn-big {
+padding: 0 20px;
+}
+
+.btn-small, .btn-mid, .btn-big, .btn-mid-sp {
+height: 36px;
+line-height: 36px;
+display: inline-block;
+outline: none;
+border-radius: 3px;
+cursor: pointer;
+font-family: "Microsoft Yahei";}

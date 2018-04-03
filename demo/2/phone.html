@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>bim</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,minimal-ui" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <script>
+        function setRootFontSize(){var a=document.documentElement,b=a.getBoundingClientRect().width||screen.width||320;a.style.fontSize=(640>=b?b:640)/3.2+"px"}setRootFontSize();window.addEventListener("resize",setRootFontSize,!1);
+      </script>
+    <link rel="stylesheet" href="./css/style.css" media="screen" title="no title">
+
+    <script src="../../Scripts/Jquery/jquery-1.8.3.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+  <form id="feedBackForm" class="form__01">
+    <input id="CampaigeId" type="hidden" name="CampaigeId" value="4549"/>
+    <input id="PageSource" type="hidden" name="PageSource" maxlength="1800" value="BIM页面电话咨询"/>
+    <ul>
+      <li><input id="UserPhone" type="text" name="UserPhone" maxlength="11" placeholder="请输入手机号码"/></li>
+      <li>
+        <li>
+          <a href="javascript:(void);" id="submit" onclick="FormSubmit()">给您回电</a>
+        </li>
+      </li>
+    </ul>
+  </form>
+
+</body>
+</html>

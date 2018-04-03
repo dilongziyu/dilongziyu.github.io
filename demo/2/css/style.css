@@ -1,0 +1,795 @@
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, figure, menu, input, textarea, button, select, th, td iframe{ margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6, b, strong { font-size:100%; font-weight:normal;}
+li { list-style:none;}
+em, i { font-style:normal;}
+a, a:visited, a:active { text-decoration:none; border:none; outline:none; color: #333;}
+a img { display:block; border:none;}
+input, textarea { outline:none;}
+textarea { resize: vertical;}
+body { -webkit-text-size-adjust:100%; -webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-touch-callout:none; word-wrap:break-word; line-height:1.5;font-size: 12px;}
+body, button, input, select, textarea { font-family: 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei', 'microsoft yahei', simsun, sans-serif;}
+.none{ display:none;}
+.left { float:left;}
+.right { float:right;}
+.clearfix::after { content:''; clear:both; display:block; height:0; overflow:hidden;visibility:hidden;}
+.clearfix { zoom:1;}
+.ellipsis { overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+
+.cont{
+  width: 3.2rem;
+  margin: 0 auto;
+  }
+
+.header{
+  width: 3.2rem;
+  height: .41rem;
+  background: url('../images/header__img.jpg') no-repeat center;
+  background-size: contain;
+}
+
+.focus .hd {width:3.2rem;height:11px;position:absolute;z-index:1;bottom:9%;text-align:center;}
+.focus .hd ul {display:inline-block;height:5px;padding:3px 5px;background:none;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;font-size:0;vertical-align:top;}
+.focus .hd ul li {display:inline-block;width:5px;height:5px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;background:none;margin:0 5px;vertical-align:top;overflow:hidden;}
+.focus .hd ul .on {background:none;}
+.focus .bd {position:relative;z-index:0;}
+.focus .bd li img {width:100%;}
+.focus .bd li a {-webkit-tap-highlight-color:rgba(0,0,0,0);/* 取消链接高亮 */}
+.focus .line {position:absolute;bottom:-4%;left:0;width:100%;}
+
+.ad0__bgd{
+  background: #01132e;
+}
+.ad0{
+  width: 3.06rem;
+  height: .23rem;
+  display: block;
+  margin: 0 auto;
+  padding: .1rem 0;
+}
+
+.link__bgd{
+  background: #f0f6ff;
+}
+.link{
+  padding: .2rem 0;
+  font-size: 0;
+  text-align: center;
+}
+.link__list{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 .15rem .1rem;
+}
+.link__list a{
+  display: block;
+}
+.link__list img{
+  width: .42rem;
+  height: .42rem;
+  display: block;
+  margin: 0 auto .1rem;
+}
+.link__list p{
+  font-size: .12rem;
+  color: #01132e;
+  text-align: center;
+}
+
+/*BIM资讯早知道-开启BIM之旅*/
+.begin__bgd{
+  background: #fff;
+}
+.begin{
+  font-size: 0;
+  text-align: center;
+  padding: .2rem 0;
+}
+.begin h2{
+  width: 2.96rem;
+  height: .7rem;
+  font-size: .15rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: .7rem;
+  margin: 0 auto .3rem;
+  background: url('../images/title01.png') no-repeat center;
+  background-size: contain;
+}
+.begin__box{
+  width: 3rem;
+  height: 1.8rem;
+  position: relative;
+  margin: 0 .1rem .2rem;
+  background: url('../images/begin__box--bgd.png') no-repeat center;
+  background-size: contain;
+}
+
+.begin h3{
+  position: absolute;
+  top: -.22rem;
+  left: .13rem;
+  box-sizing: border-box;
+  width: 2.7rem;
+  height: .4rem;
+  font-size: .12rem;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto -1px;
+  padding: .02rem 0;
+  border-radius: .2rem;
+  background: linear-gradient(to right, #04cbff 0, #3c97fe 50%,#a137fc 100%);
+}
+
+.begin__box p{
+  font-size: .12rem;
+  color: #01132e;
+  padding: .2rem .2rem;
+  line-height: .2rem;
+  text-align: left;
+}
+
+.begin__box p span{
+  color: #cf062c;
+}
+
+.begin a{
+  display: inline-block;
+  width: 1.16rem;
+  height: .3rem;
+  font-size: .12rem;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  line-height: .3rem;
+  border-radius: .2rem;
+  margin: 0 .1rem .1rem;
+  border: 4px solid #02f6ff;
+  background: linear-gradient(to bottom, #00ecfc 0%, #0199e0 50%,#0151c7 100%);
+}
+
+/*BIM工程师 建筑产业从业人员的身份证*/
+.card__bgd{
+  background: #fff;
+}
+.card{
+  height: 4.44rem;
+  font-size: 0;
+  text-align: center;
+  background: url('../images/card__bgd.jpg') no-repeat center;
+  background-size: contain;
+}
+.card h2{
+  box-sizing: border-box;
+  padding-top: .15rem;
+  width: 2.86rem;
+  height: .7rem;
+  font-size: .12rem;
+  color: #2afcaf;
+  text-align: center;
+  background: url('../images/title02.png') no-repeat center;
+  background-size: contain;
+  margin: 0 auto .5rem;
+}
+.card h2 span{
+  font-size: .17rem;
+  font-weight: 600;
+}
+.card h3{
+  font-size: .22rem;
+  color: #2afcaf;
+  text-align: center;
+  margin-bottom: .2rem;
+}
+.card h3 span{
+  color: #fbed06;
+  font-size: .28rem;
+  font-weight: 600;
+  margin: 0 .05rem;
+}
+.card__box label{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: .14rem;
+  color: #2afcaf;
+  margin: 0 .1rem .2rem;
+}
+.card__box input{
+  display: inline-block;
+  vertical-align: middle;
+  width: 2.05rem;
+  height: .3rem;
+  padding: 0 .1rem;
+  border: none;
+  margin-bottom: .2rem;
+}
+.card__box a{
+  display: inline-block;
+  vertical-align: top;
+  width: 1.16rem;
+  height: .26rem;
+  font-size: .14rem;
+  color: #01132e;
+  text-align: center;
+  line-height: .26rem;
+  background: #2afcaf;
+  margin: 0 .1rem;
+  border-radius: 5px;
+}
+.card__box a:last-of-type{
+  background: #06cdfb;
+}
+
+/*学热门技术，高薪水到渠成*/
+.height__bgd{
+  background: #fff;
+}
+.height{
+  padding: .2rem 0;
+  text-align: center;
+}
+.height h2{
+  width: 2.96rem;
+  height: .7rem;
+  font-size: .17rem;
+  color: #0a1335;
+  font-weight: 600;
+  text-align: center;
+  line-height: .7rem;
+  background: url('../images/title01.png') no-repeat center;
+  background-size: contain;
+  margin: 0 auto .2rem;
+}
+.height h2 span{
+  color: #ec5300;
+}
+.height h3{
+  font-size: .12rem;
+  color: #0a1335;
+  text-align: center;
+  margin-bottom: .2rem;
+}
+.height img{
+  display: block;
+  width: 3.2rem;
+  height: .97rem;
+  margin: 0 auto .2rem;
+}
+.height iframe{
+  width: 3.2rem;
+  height: 1.92rem;
+  display: block;
+  margin: 0 auto;
+}
+.form01{
+  padding: .2rem 0;
+  margin: 0 auto;
+  width: 3rem;
+  border-radius: 5px;
+  background: #ebedf5;
+}
+.form01 input{
+  display: block;
+  width: 2.3rem;
+  height: .32rem;
+  padding: 0 .1rem;
+  border-radius: .16rem;
+  border: 1px solid #8c94b2;
+  background: #fff;
+  margin: 0 auto .1rem;
+}
+.form01 a{
+  display: block;
+  width: 2.5rem;
+  height: .36rem;
+  font-size: .14rem;
+  color: #fff;
+  line-height: .36rem;
+  text-align: center;
+  margin: 0 auto .1rem;
+  background: #06cdfb;
+  border-radius: .18rem;
+}
+.form01 p{
+  font-size: .12rem;
+  color: #0a1335;
+  text-align: center;
+}
+/*BIM的5大优势*/
+.advantage__bgd{
+  background: #0a1335;
+}
+.advantage{
+  padding: .2rem 0;
+}
+.advantage h2{
+  width: 2.96rem;
+  height: .7rem;
+  font-size: .22rem;
+  color: #2afcaf;
+  font-weight: 600;
+  text-align: center;
+  line-height: .7rem;
+  background: url('../images/title02.png') no-repeat center;
+  background-size: contain;
+  margin: 0 auto .1rem;
+}
+.advantage img{
+  display: block;
+  width: 3.2rem;
+  height: 2.6rem;
+  margin: 0 auto .2rem;
+}
+.advantage iframe{
+  width: 3.2rem;
+  height: 1.5rem;
+  margin: 0 auto;
+}
+.form02{
+  width: 2.93rem;
+  margin: 0 auto;
+  background: #12215b;
+  border-radius: 5px;
+  padding: .2rem 0;
+  border: 1px solid #6d7bb5;
+}
+.form02 input{
+  display: block;
+  width: 2.3rem;
+  height: .32rem;
+  padding: 0 .1rem;
+  border-radius: .16rem;
+  border: 1px solid #8c94b2;
+  background: #fff;
+  margin: 0 auto .1rem;
+}
+.form02 a{
+  display: block;
+  width: 2.5rem;
+  height: .36rem;
+  font-size: .14rem;
+  color: #fff;
+  line-height: .36rem;
+  text-align: center;
+  margin: 0 auto .1rem;
+  background: #06cdfb;
+  border-radius: .18rem;
+}
+.form02 p{
+  font-size: .12rem;
+  color: #fff;
+  text-align: center;
+}
+/*BIM操作软件下载版块*/
+.download__bgd{
+  background: #0a1335;
+}
+.download{
+  font-size: 0;
+  text-align: center;
+  padding: .2rem 0;
+}
+.download h2{
+  width: 2.96rem;
+  height: .7rem;
+  font-size: .22rem;
+  color: #2afcaf;
+  font-weight: 600;
+  text-align: center;
+  line-height: .7rem;
+  background: url('../images/title02.png') no-repeat center;
+  background-size: contain;
+  margin: 0 auto .2rem;
+}
+.download img{
+  width: 1.37rem;
+  height: 1.78rem;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 .1rem .2rem;
+}
+.download iframe{
+  display: block;
+  width: 3.2rem;
+  margin: 0 auto;
+  height: 1.5rem;
+}
+
+/*BIM视频课件免费试听+优路重点资料免费下载 */
+.listen__bgd{
+  background: #0a1335;
+}
+.listen{
+  padding: .2rem 0;
+  font-size: 0;
+  text-align: center;
+}
+.listen h2{
+  box-sizing: border-box;
+  width: 2.96rem;
+  height: .7rem;
+  font-size: .12rem;
+  color: #2afcaf;
+  font-weight: 600;
+  padding-top: 20px;
+  text-align: center;
+  background: url('../images/title02.png') no-repeat center;
+  background-size: contain;
+  margin: 0 auto .2rem;
+}
+.listen h2 span{
+  font-weight: 600;
+  font-size: .15rem;
+}
+.listen__list{
+  display: inline-block;
+  vertical-align: top;
+  width: 1.38rem;
+  height: 1rem;
+  margin: 0 .1rem .1rem;
+}
+.listen__box{
+  background: #fff;
+  display: block;
+  width: 2.92rem;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.listen__box img{
+  display: block;
+  width: 2.92rem;
+}
+.listen iframe{
+  width: 2.92rem;
+  height: 2.16rem;
+  margin: 0 auto;
+  display: block;
+}
+.form03{
+  padding: .1rem 0;
+  background: #fff;
+}
+.form03 input{
+  display: block;
+  width: 2.3rem;
+  height: .32rem;
+  padding: 0 .1rem;
+  border-radius: .16rem;
+  border: 1px solid #8c94b2;
+  background: #fff;
+  margin: 0 auto .1rem;
+}
+.form03 a{
+  display: block;
+  width: 2.5rem;
+  height: .36rem;
+  font-size: .14rem;
+  color: #202221;
+  line-height: .36rem;
+  text-align: center;
+  margin: 0 auto .1rem;
+  background: #2afcaf;
+  border-radius: .18rem;
+}
+.form03 p{
+  font-size: .12rem;
+  color: #0a1335;
+  text-align: center;
+}
+/*BIM名师汇聚，不一样的课程，不一样的体验*/
+.teacher__bgd{
+  background: #0a1335;
+}
+.teacher{
+  padding: .1rem 0;
+}
+.teacher h2{
+  box-sizing: border-box;
+  width: 2.96rem;
+  height: .7rem;
+  font-size: .12rem;
+  color: #2afcaf;
+  font-weight: 600;
+  padding-top: 20px;
+  text-align: center;
+  background: url('../images/title02.png') no-repeat center;
+  background-size: contain;
+  margin: 0 auto .2rem;
+}
+.teacher h2 span{
+  font-weight: 600;
+  font-size: .15rem;
+}
+.teacher a{
+  display: block;
+}
+.teacher img{
+  width: 3.2rem;
+  height: 2.1rem;
+  display: block;
+  margin: 0 auto .2rem;
+}
+.teacher iframe{
+  width: 3.2rem;
+  display: block;
+  margin: 0 auto;
+  height: 2.16rem;
+}
+.form04{
+  width: 2.93rem;
+  margin: 0 auto;
+  background: #12215b;
+  border-radius: 5px;
+  padding: .2rem 0;
+  border: 1px solid #6d7bb5;
+}
+.form04 h2{
+  font-size: .16rem;
+  color: #1ae8d0;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: .1rem;
+}
+.form04 input{
+  display: block;
+  width: 2.3rem;
+  height: .32rem;
+  padding: 0 .1rem;
+  border-radius: .16rem;
+  border: 1px solid #8c94b2;
+  background: #fff;
+  margin: 0 auto .1rem;
+}
+.form04 a{
+  display: block;
+  width: 2.5rem;
+  height: .36rem;
+  font-size: .14rem;
+  color: #fff;
+  line-height: .36rem;
+  text-align: center;
+  margin: 0 auto .1rem;
+  background: #06cdfb;
+  border-radius: .18rem;
+}
+
+/*想学习BIM技能，现在就加入优路教育学习体验*/
+.course__bgd{
+  background: #0a1335;
+}
+.course{
+  font-size: 0;
+  text-align: center;
+  padding: .2rem 0;
+}
+.course h2{
+  box-sizing: border-box;
+  width: 2.96rem;
+  height: .7rem;
+  font-size: .12rem;
+  color: #2afcaf;
+  font-weight: 600;
+  padding-top: 20px;
+  text-align: center;
+  background: url('../images/title02.png') no-repeat center;
+  background-size: contain;
+  margin: 0 auto .2rem;
+}
+.course h2 span{
+  font-weight: 600;
+  font-size: .16rem;
+}
+.course__box{
+  width: 2.74rem;
+  background: #fff;
+  margin: 0 auto .1rem;
+}
+.course__box th{
+  height: .2rem;
+  font-size: .14rem;
+  color: #fff;
+  text-align: center;
+  background: #162d82;
+}
+.course__box th:first-of-type{
+  background: #0186d9;
+}
+.course__box td{
+  height: .23rem;
+  font-size: .12rem;
+  color: #0a1335;
+  text-align: center;
+  line-height: .23rem;
+  border-right: 1px solid #0a1335;
+  border-bottom: 1px solid #0a1335;
+}
+.course a{
+  display: inline-block;
+  width: 1.16rem;
+  height: .3rem;
+  font-size: .12rem;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  line-height: .3rem;
+  border-radius: .2rem;
+  margin: 0 .1rem .1rem;
+  border: 4px solid #02f6ff;
+  background: linear-gradient(to bottom, #00ecfc 0%, #0199e0 50%,#0151c7 100%);
+}
+
+.ad__bgd{
+  background: #fff;
+}
+.ad{
+  display: block;
+  height: 1.25rem;
+  background: url('../images/ad__bgd.jpg') no-repeat center;
+  background-size: contain;
+}
+
+/*想学习BIM技能，现在就加入优路教育学习体验*/
+.skill__bgd{
+  background: #0a1335;
+}
+.skill{
+  padding: .2rem 0;
+}
+.skill h2{
+  box-sizing: border-box;
+  width: 2.96rem;
+  height: .7rem;
+  font-size: .12rem;
+  color: #2afcaf;
+  font-weight: 600;
+  padding-top: 20px;
+  text-align: center;
+  background: url('../images/title02.png') no-repeat center;
+  background-size: contain;
+  margin: 0 auto .2rem;
+}
+.skill h3{
+  font-size: .16rem;
+  color: #2afcaf;
+  text-align: center;
+  font-weight: 600;
+}
+.skill h2 span{
+  font-weight: 600;
+  font-size: .16rem;
+}
+.skill iframe{
+  width: 3.2rem;
+  display: block;
+  margin: 0 auto;
+  height: 2.2rem;
+}
+.form05{
+  width: 2.93rem;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: .2rem 0;
+}
+.form05 input{
+  display: block;
+  width: 2.3rem;
+  height: .32rem;
+  padding: 0 .1rem;
+  border-radius: .16rem;
+  border: 1px solid #8c94b2;
+  background: #fff;
+  margin: 0 auto .1rem;
+}
+.form05 a{
+  display: block;
+  width: 2.5rem;
+  height: .36rem;
+  font-size: .14rem;
+  color: #fff;
+  line-height: .36rem;
+  text-align: center;
+  margin: 0 auto .1rem;
+  background: #06cdfb;
+  border-radius: .18rem;
+}
+
+
+
+.phone__bgd{
+  /*background: #eee;*/
+}
+
+.phone__greey{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 10;
+}
+
+.phone__show{
+  width: 100%;
+  position: fixed;
+  top: 50%;
+  margin: -1.5rem auto;
+  z-index: 11;
+}
+
+.phone{
+  position: relative;
+  width: 3rem;
+}
+
+.phone__close{
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  background: #0b8cb7;
+  border-radius: 20px;
+  font-style: normal;
+}
+
+
+.form__01{
+  border: 1px solid #0b8cb7;
+  border-radius: 3px;
+  padding: 0 0 10px;
+  margin: 10px 20px;
+  background: #eee;
+}
+
+.form__01 h2{
+  height: 1rem;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: center;
+  background: #0b8cb7;
+}
+
+.form__01 li{
+  text-align: center;
+}
+
+.form__01 input[type = text]{
+  width: 1.8rem;
+  height: .5rem;
+  border: 1px solid #eee;
+  display: block;
+  margin: .2rem auto 5px;
+  padding: 0 10px 0;
+  text-align: center;
+}
+
+.form__01 a{
+  width: 2rem;
+  height: .5rem;
+  background: #0b8cb7;
+  color: #fff;
+  font-size: 24px;
+  line-height: .5rem;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.phone--if{
+  width: 3rem;
+  height: 3rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.form__01 p{
+  color: #aaa;
+  font-size: 12px;
+  margin: 5px 0;
+}
