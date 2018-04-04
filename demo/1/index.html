@@ -16,14 +16,13 @@
 		<link href="css/hdr_mn.css" rel="stylesheet" type="text/css">
 		<link href="./css/style--yd.css" rel="stylesheet" type="text/css" media="all and (min-width:270px) and (max-width:1000px)">
 
-		<link href="http://www.niceloo.com/zhuanti/footer_box_hp/footer.css" rel="stylesheet" type="text/css">
-		<link href="http://www.niceloo.com/Styles/NewRegister.css" rel="stylesheet" type="text/css">
-		<script src="http://www.niceloo.com/Scripts/Jquery/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<link href="./css/footer.css" rel="stylesheet" type="text/css">
+		<script src="../../Scripts/Jquery/jquery-1.8.3.min.js" type="text/javascript"></script>
 	</head>
 
 	<body>
 		<div class="zhy" id="zhy">
-			<script type="text/javascript" src="http://www.niceloo.com/zhuanti/hdr_mn/hdr_mn_frnt.js"></script>
+			<script type="text/javascript" src="./js/hdr_mn_frnt.js"></script>
 			<ul class="ul_tp_mn fl_lt">
 				<li class="li_bck li_rltv">
 					<a href="#section0" title="直播课堂 ">直播课堂 </a>
@@ -41,10 +40,10 @@
 					<a href="#section5" title="互动平台">互动平台</a>
 				</li>
 				<li class="qbks_mn">全部 &or;
-          <script type="text/javascript" src="http://www.niceloo.com/zhuanti/footer_box/menu_bx.js"></script>
+          <script type="text/javascript" src="./js/menu_bx.js"></script>
       </li>
 			</ul>
-			<script type="text/javascript" src="http://www.niceloo.com/zhuanti/hdr_mn/hdr_mn_bck.js"></script>
+			<script type="text/javascript" src="./js/hdr_mn_bck.js"></script>
 			<script>
 				document.getElementById("divLogin").innerHTML = "<a href=javascript:void(0); onclick=ShowLoginUrl('Login',2789);>登录</a><a href=javascript:void(0); onclick=ShowRegisterUrl('Register',2789);>注册</a>";
 				document.getElementById("demo").innerHTML = "一级消防工程师";
@@ -113,13 +112,6 @@
 						<col width="14%"></col>
 						<col width="14%"></col>
 	    		</colgroup>
-					<!-- <colgroup class="classroom__th--yd">
-						<col width="12%"></col>
-						<col width="22%"></col>
-						<col width="12%"></col>
-						<col width="13%"></col>
-						<col width="15%"></col>
-	    		</colgroup> -->
 					<tr>
 						<th>科目</th>
 						<th>直播日期</th>
@@ -462,14 +454,14 @@
 						<img src="./images/interactive__img04.png" alt="">
 					</a>
 				</div>
-				<a href="https://jq.qq.com/?_wv=1027&k=5Z62qby " title="优路一消备考群QQ号：552794427" class="interactive__link"></a>
+				<a href="https://jq.qq.com/?_wv=1027&k=5Z62qby " title="优路一消备考群QQ号：*******" class="interactive__link"></a>
 			</div>
 		</div>
 
 		<div class="The_total" id="footer_bx">
-			<script type="text/javascript" src="http://www.niceloo.com/zhuanti/footer_box_hp/footer_02.js"></script>
-			<script type="text/javascript" src="http://www.niceloo.com/zhuanti/footer_box_hp/footer_01.js"></script>
-			<script type="text/javascript" src="http://www.niceloo.com/zhuanti/footer_box_hp/footer_03.js"></script>
+			<script type="text/javascript" src="./js/footer_02.js"></script>
+			<script type="text/javascript" src="./js/footer_01.js"></script>
+			<script type="text/javascript" src="./js/footer_03.js"></script>
 			<script type="text/javascript">
 				window._bd_share_config = {
 					"common": {
@@ -544,26 +536,7 @@
 		</div>
 	</div>
 
-	<!--右侧客服   end-->
-	<script src="http://www.niceloo.com/Scripts/Jquery/jquery.cookie.js" type="text/javascript"></script>
-	<!--弹窗注册登录需要引用的JS和css; 并需求引用jquery类库-->
-	<script src="http://www.niceloo.com/Scripts/Register.js" type="text/javascript"></script>
-	<script src="http://www.niceloo.com/Scripts/Campaigpages/DomainCampaigpages.js" type="text/javascript"></script>
-	<script src="http://www.niceloo.com/Scripts/GuestFeedBack/GuestFeedBack.js" type="text/javascript"></script>
-	<script src="http://www.niceloo.com/Scripts/Login.js" type="text/javascript"></script>
-	<script src="http://www.niceloo.com/Scripts/Campaigpages/OpenDomainCampaigpages.js" type="text/javascript"></script>
-	<script type="text/javascript" src="http://member.niceloo.com/Scripts/OpenLogin/UnityResigter.js"></script>
-	<!--弹窗注册登录引用结束-->
-	<script>
-		$(function() {
-			//统计此页面浏览次数
-			OnloadStatistics(3240); //id参数(3219)为后台活动页面id编号
-			//咨询客服
-			$('.open-kefu').on('click', function() {
-				NTKF.im_openInPageChat('kf_9530_1489632202988');
-			})
-		})
-	</script>
+
 	<script>
 		(function($) {
 
@@ -599,21 +572,7 @@
 			});
 		})(jQuery)
 	</script>
-	<script>
-		//登录状态代码
-		$(function() {
-			if($.cookie('userName') == null) {
-				document.getElementById('divLogin').style.display = "block";
-				document.getElementById('divLoginSuccess').style.display = "none";
-				document.getElementById('ExitCookies').style.display = "none";
-			} else {
-				document.getElementById('divLogin').style.display = "none";
-				document.getElementById('divLoginSuccess').style.display = "block";
-				document.getElementById('ExitCookies').style.display = "block";
-				document.getElementById('divLoginSuccess').innerHTML = "欢迎您<a href='http://member.niceloo.com/LearningCenter/UserCenter.aspx'>" + $.cookie('userName') + "</a>登录优路教育网！";
-			}
-		});
-	</script>
+
 
 	<script>
 		function formCheck() {
@@ -642,43 +601,6 @@
 			}
 		}
 	</script>
-
-	<!-- 20170817 统计代码替换内容 -->
-	<!-- 360推送 -->
-	<script>
-		(function() {
-			var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?11a53d185945d5218e2b4eba2e1ce619" : "https://jspassport.ssl.qhimg.com/11.0.1.js?11a53d185945d5218e2b4eba2e1ce619";
-			document.write('<script src="' + src + '" id="sozz"><\/script>');
-		})();
-	</script>
-	<!-- 百度推送 -->
-	<script>
-		(function() {
-			var bp = document.createElement('script');
-			var curProtocol = window.location.protocol.split(':')[0];
-			if(curProtocol === 'https') {
-				bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-			} else {
-				bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-			}
-			var s = document.getElementsByTagName("script")[0];
-			s.parentNode.insertBefore(bp, s);
-		})();
-	</script>
-	<!-- 百度统计 -->
-	<script>
-		var _hmt = _hmt || [];
-		(function() {
-			var hm = document.createElement("script");
-			hm.src = "https://hm.baidu.com/hm.js?a1e937e3685cef73a11766245cb16c4a";
-			var s = document.getElementsByTagName("script")[0];
-			s.parentNode.insertBefore(hm, s);
-		})();
-	</script>
-	<!-- CNZZ统计-->
-	<div style="display: none;">
-	<script type="text/javascript" src="http://s11.cnzz.com/stat.php?id=2553652&web_id=2553652&show=pic1" language="JavaScript"></script>
-	</div>
 	<!--小能推广-->
 	<script>
 		var NTKF_PARAM = {

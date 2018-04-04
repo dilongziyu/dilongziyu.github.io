@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+
+/*menu*/
+.dv_mn .qbks_mn > div{display:none;}
+.dv_mn .qbks_mn:hover .sb_box{display:block;position:absolute;bottom:-193px;*bottom:-183px;left:50%;border:1px solid #cccccc;background:#fff;width:628px;z-index:9999999;padding:10px 30px;margin-left:-345px;}
+.sb_box > dl{width:628px;overflow:hidden;border: 0 solid #cccccc;border-bottom: 1px solid #cccccc;border-style: dotted;padding-bottom:10px;margin:10px 0;}
+.sb_box .dl_bt_n{padding-bottom:0;border-bottom:0 solid #cccccc;}
+.sb_box > dl > dt{float:left;background:#d71209;font-size:14px;font-weight:bold;color:#fff;width:80px;text-align:center;line-height:22px;}
+.sb_box > dl > dd{float:right;width:548px;overflow:hidden;min-height:22px;}
+.sb_box > dl > dd > a{float:left;font-size:12px;padding:0 10px;line-height:22px;min-width:30px;}
+.sb_box > dl > dd > a:hover{color:#d71209;}
+.sb_box > dl > dd .a_bck_n{background:none;}
+
+
+/* end */
+#footer_bx{width:100%;background:#fff;}
+#footer_bx .dv_ul{width:100%;margin:auto;background:#eff0f2;}
+#footer_bx .dv_ul .nd_ul{width:972px;margin:auto;padding:10px 0;overflow:hidden;background:#eff0f2;}
+#footer_bx .dv_ul .nd_ul > li{float:left;font-size:13px;color:#2c2c2c;line-height:20px;background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/nd_ul_ln.gif') no-repeat;padding:15px 18px 15px 69px;position: relative;}
+#footer_bx .dv_ul .nd_ul .li_no{background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/nd_ul_ln.gif') no-repeat -10px 0;}
+#footer_bx .dv_ul .nd_ul > li > div{position:absolute;top:0;left:0;width:60px;height:90px;}
+#footer_bx .dv_ul .nd_ul > li > a:hover{color:#e0413a;}
+#footer_bx .dv_ul .nd_ul > li .dv_bck1{background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/nd_ul_img1.png') no-repeat 18px 26px;}
+#footer_bx .dv_ul .nd_ul > li .dv_bck2{background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/nd_ul_img2.png') no-repeat 18px 26px;}
+#footer_bx .dv_ul .nd_ul > li .dv_bck3{background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/nd_ul_img3.png') no-repeat 18px 26px;}
+#footer_bx .dv_ul .nd_ul > li .dv_bck4{background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/nd_ul_img4.png') no-repeat 18px 26px;}
+#footer_bx .dv_ul .nd_ul > li .dv_bck5{background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/nd_ul_img5.png') no-repeat 18px 26px;}
+#footer_bx .dv_ul .nd_ul > li .dv_bck6{background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/nd_ul_img6.png') no-repeat 18px 26px;}
+
+#footer_bx .mg_dv{margin-bottom:10px;}
+#footer_bx .mg_dv_h1{width:100%;background:#d71209;}
+#footer_bx .tp_dv{width:1100px;height:140px;margin:auto;background:#d71209;text-align:center;}
+#footer_bx .tp_dv > div{font-size:18px;color:#fff;width:580px;margin:auto;background:#d71209;line-height:45px;padding-top:30px;}
+#footer_bx .tp_dv > div > b{font-size:38px;}
+#footer_bx .mg_dv > div{width:1100px;margin:auto;}
+#footer_bx .bx_ul{width:1045px;margin:auto;overflow:hidden;padding-top:20px;}
+/*#footer_bx .bx_ul .mg_tb div img{ float:left;}*/
+#footer_bx .bx_ul > li{float:left;}
+#footer_bx .bx_ul .mg_tb{margin:10px 0;}
+#footer_bx .mn_ul{width:630px;overflow:hidden;}
+#footer_bx .mn_ul > li{float:left;font-size:14px;color:#000;line-height:26px;width:78px;height:26px;text-align:center;}
+#footer_bx .mn_ul > li > p{background: url('http://www.niceloo.com/zhuanti/footer_box_hp/images/mn_ul_ln.gif') no-repeat left;}
+#footer_bx .mn_ul .cli{background: url('http://www.niceloo.com/zhuanti/footer_box_hp/images/mn_ba.png') no-repeat center;cursor: pointer;width:78px;height:26px;color:#fff;font-weight:bold;}
+#footer_bx .mn_ul #li_no{background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/mn_ul_ln.gif') no-repeat -10px 0;}
+#footer_bx .mn_ul #li_no1{background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/mn_ul_ln.gif') no-repeat -10px 0;}
+#footer_bx #tabcontent{width:630px;overflow:hidden;margin-top:10px;}
+#footer_bx #tabcontent .hidden {display:none;}
+#footer_bx #tabcontent > ul > li > p{font-size:13px;color:#000;line-height:20px;padding:5px 0;background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/p_ln.gif') repeat-x bottom;margin:0 20px;}
+#footer_bx #tabcontent > ul > li .p_no{padding:5px 0 0;background:none;}
+#footer_bx .spn_tl{background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/tel.gif') no-repeat 0 2px;color:#d71209;padding-left:17px;margin-left:10px;}
+#footer_bx .tabmenu > div{margin-top:10px;}
+
+#footer_bx .end_dv{background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/hd_1_bck.gif') repeat-x top;}
+#footer_bx .nd_dv{width:1100px;margin:auto;background:url('http://www.niceloo.com/zhuanti/footer_box_hp/images/hd_1_bck.gif') repeat-x top;text-align:center;font-size:12px;color:#333333;line-height:20px;padding:20px 0;border:0 solid #000;}
+
+.mg_tp10{margin-top:10px;}
+.mg_tp50{margin-top:50px;}
+.mg_lt65{margin-left:65px;}
+.mg_lt78{margin-left:78px;}
+
+.fl_lt{ float:left; }
+.fl_ri{float:right;}
+.txt_al_cn{text-align:center;}
+.clr_rd{color:#d71007;}
+
+.mg_lt20{margin-left:20px;}
+.mg_tp20{margin-top:20px;}
+.mg_tp30{margin-top:30px;}
